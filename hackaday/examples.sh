@@ -8,4 +8,6 @@ APIKEY="$(cat api-key/plain-text-key)"
 # Retrieve one project
 # curl -G https://api.hackaday.io/v1/projects/1340?api_key=$APIKEY 
 # Projects pagination
-curl -G https://api.hackaday.io/v1/projects?api_key=$APIKEY&page=1&per_page=2
+# curl -G https://api.hackaday.io/v1/projects?api_key=$APIKEY&page=1&per_page=2
+# Users
+curl -G http://api.hackaday.io/v1/users?api_key=$APIKEY
