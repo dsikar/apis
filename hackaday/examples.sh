@@ -1,3 +1,4 @@
+# TODO user python curl equivalent
 # As per https://dev.hackaday.io/doc/api
 
 # Retrieve key from /api-key - supplied by hackaday.io
