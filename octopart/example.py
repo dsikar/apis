@@ -2,6 +2,8 @@ import pycurl
 from io import BytesIO
 import subprocess
 
+# http://pycurl.io/docs/latest/quickstart.html
+
 proc = subprocess.check_output("cat api-key/supplier-compare", shell=True)
 proc = proc[:-1]
 # print(proc)
