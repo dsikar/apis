@@ -1,30 +1,20 @@
 import pycurl
 from io import BytesIO
-import subprocess
-
 # http://pycurl.io/docs/latest/quickstart.html
-
-proc = subprocess.check_output("cat api-key/supplier-compare", shell=True)
-proc = proc[:-1]
-# print(proc)
-url = "http://octopart.com/api/v3/parts/match?apikey=%proc" % (proc)
+f=open("api-key/supplier-compare", "r")
+APIKEY=f.read()
+APIKEY=APIKEY.strip()
+url = "http://octopart.com/api/v3/parts/match?apikey=%s&queries=[{\"mpn\":\"SN74S74N\"}]&pretty_print=true" % (APIKEY)
 print(url)
 buffer = BytesIO()
 c = pycurl.Curl()
-c.setopt(c.URL, 'http://pycurl.io/')
+# dev env workaround - https://stackoverflow.com/questions/8332643/pycurl-and-ssl-cert
+c.setopt(pycurl.SSL_VERIFYPEER, 0)
+c.setopt(pycurl.SSL_VERIFYHOST, 0)
+c.setopt(c.URL, url)
 c.setopt(c.WRITEDATA, buffer)
 c.perform()
 c.close()
-
 body = buffer.getvalue()
-# Body is a byte string.
-# We have to know the encoding in order to print it to a text file
-# such as standard output.
-# print(body.decode('iso-8859-1'))
+print(body.decode('iso-8859-1'))
 
-# 1. Retrieve key from /api-key
-#APIKEY="$(cat api-key/supplier-compare)"
-#curl -G http://octopart.com/api/v3/parts/match \
-#   -d queries="[{\"mpn\":\"SN74S74N\"}]" \
-#   -d apikey=$APIKEY \
-#   -d pretty_print=true
