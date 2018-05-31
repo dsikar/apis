@@ -1,5 +1,6 @@
 import pycurl
 from io import BytesIO
+import json
 # http://pycurl.io/docs/latest/quickstart.html
 f=open("api-key/supplier-compare", "r")
 APIKEY=f.read()
@@ -16,5 +17,7 @@ c.setopt(c.WRITEDATA, buffer)
 c.perform()
 c.close()
 body = buffer.getvalue()
-print(body.decode('iso-8859-1'))
+parsed_json = json.loads(body.decode('iso-8859-1'))
+print(parsed_json)
+# print(body.decode('iso-8859-1'))
 
