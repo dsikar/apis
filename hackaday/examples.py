@@ -6,7 +6,6 @@ import json
 f=open("api-key/plain-text-key", "r")
 APIKEY=f.read()
 APIKEY=APIKEY.strip()
-print(APIKEY)
 url = "https://api.hackaday.io/v1/search?api_key=%s&search_term=esp8266&page=1&per_page=1" % (APIKEY)
 buffer = BytesIO()
 c = pycurl.Curl()
@@ -18,8 +17,10 @@ c.setopt(c.WRITEDATA, buffer)
 c.perform()
 c.close()
 body = buffer.getvalue()
-parsed_json = json.loads(body.decode('iso-8859-1'))
-print(parsed_json)
-
+jsonObject = json.loads(body.decode('iso-8859-1'))
+for key in jsonObject:
+    value = jsonObject[key]
+    print("The key and value are ({}) = ({})".format(key, value))
+pass
 # print(body.decode('iso-8859-1'))
 
