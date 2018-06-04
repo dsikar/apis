@@ -2,6 +2,9 @@ import pycurl
 from io import BytesIO
 import json
 
+def pagenumber(a):
+  print('last page = ' + str(a))
+
 # http://pycurl.io/docs/latest/quickstart.html
 f=open("api-key/plain-text-key", "r")
 APIKEY=f.read()
@@ -21,7 +24,7 @@ jsonObject = json.loads(body.decode('iso-8859-1'))
 for key in jsonObject:
     value = jsonObject[key]
     if key == 'last_page':
-        print('last page = ' + str(value)) 
+        pagenumber(value) 
     #print("The key and value are ({}) = ({})".format(key, value))
 pass
 # print(body.decode('iso-8859-1'))
@@ -29,6 +32,4 @@ pass
 
 # Paging function
 
-def pagenumber(a):
-  print('last page = ' + str(a))
 
