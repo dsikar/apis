@@ -1,0 +1,5 @@
+The key and value are (total) = (3872)
+The key and value are (per_page) = (1)
+The key and value are (last_page) = (3872)
+The key and value are (page) = (1)
+The key and value are (results) = ([{'id': 9600, 'url': 'https://hackaday.io/project/9600-sunset-lamp', 'owner_id': 94265, 'name': 'Sunset lamp', 'summary': 'A lamp the changes with the sun', 'description': 'replaced the inards of a basic lamp with 2 neopixel rings, and an esp8266\r\n', 'image_url': 'https://cdn.hackaday.io/images/3020211455009693377.jpg', 'views': 1327, 'comments': 0, 'followers': 10, 'skulls': 5, 'logs': 8, 'details': 1, 'instruction': 1, 'components': 3, 'images': 3, 'created': 1455009746, 'updated': 1456369883, 'tags': ['hardware', 'Neopixel', 'ESP8266', 'ongoing project'], 'search_category': 'projects'}])

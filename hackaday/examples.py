@@ -20,7 +20,9 @@ body = buffer.getvalue()
 jsonObject = json.loads(body.decode('iso-8859-1'))
 for key in jsonObject:
     value = jsonObject[key]
-    print("The key and value are ({}) = ({})".format(key, value))
+    if key == 'last_page':
+        print('last page = ' + str(value)) 
+    #print("The key and value are ({}) = ({})".format(key, value))
 pass
 # print(body.decode('iso-8859-1'))
 
