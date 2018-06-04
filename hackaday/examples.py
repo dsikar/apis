@@ -26,3 +26,9 @@ for key in jsonObject:
 pass
 # print(body.decode('iso-8859-1'))
 
+
+# Paging function
+
+def pagenumber(a):
+  print('last page = ' + str(a))
+
