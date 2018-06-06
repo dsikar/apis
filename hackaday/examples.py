@@ -34,5 +34,8 @@ def getPageCount():
     pass
     return retval
 
-print(getPageCount())
+iPgCnt = getPageCount()
 
+for x in range(iPgCnt+1):
+    print(x) # iterate through all found pages, extracting as required
+print(iPgCnt)
