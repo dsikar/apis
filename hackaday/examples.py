@@ -1,6 +1,7 @@
 import pycurl
 from io import BytesIO
 import json
+from time import sleep
 
 def pagenumber(a):
   print('last page = ' + str(a))
@@ -38,4 +39,7 @@ iPgCnt = getPageCount()
 
 for x in range(iPgCnt+1):
     print(x) # iterate through all found pages, extracting as required
+    sleep(0.2) # hackaday api allows 10 reads per sec, working with 5 to be on safe side
+    # 1. todo parse string
+    # 2. store - flat file or database
 print(iPgCnt)
