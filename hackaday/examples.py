@@ -25,8 +25,13 @@ def getPageCount():
     c.perform()
     c.close()
     body = buffer.getvalue()
+    retval = getKey('total', body);
+    # print(retval)
+    return retval
+
+def getKey(myKey, body):
     jsonObject = json.loads(body.decode('iso-8859-1'))
-    retval = 0
+    retval = 0;
     for key in jsonObject:
         value = jsonObject[key]
         #print('key = ' + str(key))
@@ -37,9 +42,14 @@ def getPageCount():
 
 iPgCnt = getPageCount()
 
-for x in range(iPgCnt+1):
-    print(x) # iterate through all found pages, extracting as required
-    sleep(0.2) # hackaday api allows 10 reads per sec, working with 5 to be on safe side
-    # 1. todo parse string
-    # 2. store - flat file or database
+# TODO 1. Split functions:
+#       1.1 Generate pycurl request string
+#       1.2 Stringbuilder
+#       1.3 Json Parser
+
+#for x in range(iPgCnt+1):
+#    print(x) # iterate through all found pages, extracting as required
+#    sleep(0.2) # hackaday api allows 10 reads per sec, working with 5 to be on safe side
+    # Lower priority (equally important) TODO 2. store - flat file or database
+
 print(iPgCnt)
