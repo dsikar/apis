@@ -3,6 +3,9 @@ from io import BytesIO
 import json
 from time import sleep
 
+# base URL
+strBaseURL = "https://api.hackaday.io/v1/search?api_key=APIKEY&search_term=esp8266&page=PGNUM&per_page=1"; 
+
 def pagenumber(a):
   print('last page = ' + str(a))
 
@@ -12,7 +15,7 @@ def getApiKey():
     APIKEY=APIKEY.strip()
     return APIKEY
 
-def getPageCount():
+def getPageCount(url):
     APIKEY=getApiKey()
     url = "https://api.hackaday.io/v1/search?api_key=%s&search_term=esp8266&page=1&per_page=1" % (APIKEY)
     buffer = BytesIO()
@@ -40,6 +43,9 @@ def getKey(myKey, body):
     pass
     return retval
 
+APIKEY=getApiKey()
+url = "https://api.hackaday.io/v1/search?api_key=%s&search_term=esp8266&page=1&per_page=1" % (APIKEY)
+ 
 iPgCnt = getPageCount()
 
 # TODO 1. Split functions:
