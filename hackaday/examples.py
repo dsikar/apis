@@ -16,8 +16,8 @@ def getApiKey():
     return APIKEY
 
 def getPageCount(url):
-    APIKEY=getApiKey()
-    url = "https://api.hackaday.io/v1/search?api_key=%s&search_term=esp8266&page=1&per_page=1" % (APIKEY)
+    # APIKEY=getApiKey()
+    # url = "https://api.hackaday.io/v1/search?api_key=%s&search_term=esp8266&page=1&per_page=1" % (APIKEY)
     buffer = BytesIO()
     c = pycurl.Curl()
     # dev env workaround - https://stackoverflow.com/questions/8332643/pycurl-and-ssl-cert
@@ -46,7 +46,7 @@ def getKey(myKey, body):
 APIKEY=getApiKey()
 url = "https://api.hackaday.io/v1/search?api_key=%s&search_term=esp8266&page=1&per_page=1" % (APIKEY)
  
-iPgCnt = getPageCount()
+iPgCnt = getPageCount(url)
 
 # TODO 1. Split functions:
 #       1.1 Generate pycurl request string
