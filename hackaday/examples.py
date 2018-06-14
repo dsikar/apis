@@ -44,9 +44,13 @@ def getKey(myKey, body):
     return retval
 
 APIKEY=getApiKey()
-url = "https://api.hackaday.io/v1/search?api_key=%s&search_term=esp8266&page=1&per_page=1" % (APIKEY)
+#url = "https://api.hackaday.io/v1/search?api_key=%s&search_term=esp8266&page=PAGENUMBER&per_page=1" % (APIKEY)
+url = "https://api.hackaday.io/v1/search?api_key=APIKEY&search_term=esp8266&page=PAGENUMBER&per_page=1";
+urlcnt = url.replace("APIKEY", APIKEY);
+urlcnt = urlcnt.replace("PAGENUMBER", "1");
+
  
-iPgCnt = getPageCount(url)
+iPgCnt = getPageCount(urlcnt)
 
 # TODO 1. Split functions:
 #       1.1 Generate pycurl request string
