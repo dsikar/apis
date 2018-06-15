@@ -49,8 +49,23 @@ url = "https://api.hackaday.io/v1/search?api_key=APIKEY&search_term=esp8266&page
 urlcnt = url.replace("APIKEY", APIKEY);
 urlcnt = urlcnt.replace("PAGENUMBER", "1");
 
- 
+def getBaseURL():
+    return "https://api.hackaday.io/v1/search?api_key=APIKEY&search_term=esp8266&page=PAGENUMBER&per_page=1";
+
+def getURLWithAPI():
+    url = getBaseURL();
+    APIKEY=getApiKey();
+    return url.replace("APIKEY", APIKEY)
+
+urlWithAPI = getURLWithAPI();
+urlcnt = urlWithAPI.replace("PAGENUMBER", "1");
 iPgCnt = getPageCount(urlcnt)
+#print(iPgCnt);
+
+for x in range(iPgCnt+1):
+    url = getURLWithAPI();
+    url = url.replace("PAGENUMBER", str(x));
+    print(url)
 
 # TODO 1. Split functions:
 #       1.1 Generate pycurl request string
@@ -62,4 +77,4 @@ iPgCnt = getPageCount(urlcnt)
 #    sleep(0.2) # hackaday api allows 10 reads per sec, working with 5 to be on safe side
     # Lower priority (equally important) TODO 2. store - flat file or database
 
-print(iPgCnt)
+#print(iPgCnt)
