@@ -3,14 +3,16 @@ from io import BytesIO
 import json
 from time import sleep
 
+####################
 # Hackaday scraper #
+####################
 
 # +-------+           +--------+
 # |SCRAPER|           |HACKADAY|
 # |ENGINE | +-------> |PROJECTS|
 # +-------+           +----+---+
 #                         |
-#                          |
+#                         |
 #                         v
 #            +------------+-------------+
 #            | * ID (UNIQUE KEY)        |
@@ -111,10 +113,15 @@ urlcnt = urlWithAPI.replace("PAGENUMBER", "1");
 iPgCnt = getPageCount(urlcnt)
 #print(iPgCnt);
 
-for x in range(iPgCnt+1):
+for x in range(1, 2): # (iPgCnt+1):
     url = getURLWithAPI();
     url = url.replace("PAGENUMBER", str(x));
     print(url)
+    # get url
+
+    # sleep for a few seconds
+    sleep(5)
+
 
 # TODO 1. Split functions:
 #       1.1 Generate pycurl request string
