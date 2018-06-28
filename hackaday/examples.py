@@ -78,17 +78,11 @@ def getKey(myKey, body):
     retval = 0;
     for key in jsonObject:
         value = jsonObject[key]
-        #print('key = ' + str(key))
-        if str(key) == 'total':
+        if str(key) == myKey:
             retval = value
+            break
     pass
     return retval
-
-APIKEY=getApiKey()
-#url = "https://api.hackaday.io/v1/search?api_key=%s&search_term=esp8266&page=PAGENUMBER&per_page=1" % (APIKEY)
-url = "https://api.hackaday.io/v1/search?api_key=APIKEY&search_term=esp8266&page=PAGENUMBER&per_page=1";
-urlcnt = url.replace("APIKEY", APIKEY);
-urlcnt = urlcnt.replace("PAGENUMBER", "1");
 
 ######################################
 # Return base URL from function call #
@@ -109,14 +103,19 @@ def getURLWithAPI():
 # Go through pages
 
 urlWithAPI = getURLWithAPI();
-urlcnt = urlWithAPI.replace("PAGENUMBER", "1");
+urlcnt = urlWithAPI.replace("PGNUM", "1");
 iPgCnt = getPageCount(urlcnt)
 #print(iPgCnt);
 
+url = getURLWithAPI();
 for x in range(1, 2): # (iPgCnt+1):
-    url = getURLWithAPI();
-    url = url.replace("PAGENUMBER", str(x));
-    print(url)
+    url1 = url.replace("PGNUM", str(x));
+    mybody = getURLbody(url1);
+    myproj = getKey('results', mybody);
+    print(myproj);
+    #myId = getKey('id', myproj);
+    #myFollowers = getKey('followers', myproj);
+    # print(myId + ', ' + myFollowers);
     # get url
 
     # sleep for a few seconds
