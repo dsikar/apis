@@ -112,11 +112,11 @@ for x in range(1, 2): # (iPgCnt+1):
     url1 = url.replace("PGNUM", str(x));
     mybody = getURLbody(url1);
     myproj = getKey('results', mybody);
-    print(myproj);
+    jsonObject = json.loads(mybody.decode('iso-8859-1'))
+    #myresults = jsonObject
+    print(jsonObject["results"][0]["id"]);
     #myId = getKey('id', myproj);
     #myFollowers = getKey('followers', myproj);
-    # print(myId + ', ' + myFollowers);
-    # get url
 
     # sleep for a few seconds
     sleep(5)
