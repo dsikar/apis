@@ -121,6 +121,15 @@ for x in range(1, 2): # (iPgCnt+1):
     print(jsonObject["results"][0]["summary"]);
     print(jsonObject["results"][0]["views"]);
     print(jsonObject["results"][0]["skulls"]);
+    print(jsonObject["results"][0]["followers"]);
+    print(jsonObject["results"][0]["logs"]);
+    print(jsonObject["results"][0]["logs"]);
+    print(jsonObject["results"][0]["details"]);
+    print(jsonObject["results"][0]["instruction"]);
+     
+
+
+
 
 
     
