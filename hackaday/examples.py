@@ -114,8 +114,10 @@ for x in range(1, 2): # (iPgCnt+1):
     # print(mybody);
     # myproj = getKey('results', mybody);
     jsonObject = json.loads(mybody.decode('iso-8859-1'))
-    print(jsonObject["total"]);
-    print(jsonObject["results"][0]["id"]);
+    total = jsonObject["total"];
+    print(total);
+    results = jsonObject["results"][0]["id"];
+    print(results)
     print(jsonObject["results"][0]["owner_id"]);
     print(jsonObject["results"][0]["name"]);
     print(jsonObject["results"][0]["summary"]);
