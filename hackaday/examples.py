@@ -115,23 +115,18 @@ for x in range(1, 2): # (iPgCnt+1):
     # myproj = getKey('results', mybody);
     jsonObject = json.loads(mybody.decode('iso-8859-1'))
     total = jsonObject["total"];
-    print(total);
     results = jsonObject["results"][0]["id"];
-    print(results)
-    print(jsonObject["results"][0]["owner_id"]);
-    print(jsonObject["results"][0]["name"]);
-    print(jsonObject["results"][0]["summary"]);
-    print(jsonObject["results"][0]["views"]);
-    print(jsonObject["results"][0]["skulls"]);
-    print(jsonObject["results"][0]["followers"]);
-    print(jsonObject["results"][0]["logs"]);
-    print(jsonObject["results"][0]["logs"]);
-    print(jsonObject["results"][0]["details"]);
-    print(jsonObject["results"][0]["instruction"]);
+    owner_id = jsonObject["results"][0]["owner_id"];
+    name = jsonObject["results"][0]["name"];
+    summary = jsonObject["results"][0]["summary"];
+    views = jsonObject["results"][0]["views"];
+    skulls = jsonObject["results"][0]["skulls"];
+    followers = jsonObject["results"][0]["followers"];
+    logs = jsonObject["results"][0]["logs"];
+    details = jsonObject["results"][0]["details"];
+    instruction = jsonObject["results"][0]["instruction"];
      
-
-
-
+    print(str(results) + ',' + str(owner_id));
 
 
     
