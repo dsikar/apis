@@ -105,10 +105,10 @@ def getURLWithAPI():
 urlWithAPI = getURLWithAPI();
 urlcnt = urlWithAPI.replace("PGNUM", "1");
 iPgCnt = getPageCount(urlcnt)
-#print(iPgCnt);
+print(iPgCnt);
 
 url = getURLWithAPI();
-for x in range(1, 2): # (iPgCnt+1):
+for x in range(1, iPgCnt+1):
     url1 = url.replace("PGNUM", str(x));
     mybody = getURLbody(url1);
     # print(mybody);
@@ -129,14 +129,6 @@ for x in range(1, 2): # (iPgCnt+1):
     strResults += str(views) + "|" + str(skulls) +  "|" + str(followers) + "|" + str(logs) 
     strResults += "|" + str(details) + "|" + str(instruction)
     print(strResults)
-
-
-    
-    #myresults = jsonObject
-    # print(jsonObject["results"][0]["id"]);
-    #myId = getKey('id', myproj);
-    #myFollowers = getKey('followers', myproj);
-
     # sleep for a few seconds
     sleep(5)
 
