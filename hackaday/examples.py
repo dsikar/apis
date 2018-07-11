@@ -125,9 +125,12 @@ for x in range(1, iPgCnt+1):
     logs = jsonObject["results"][0]["logs"];
     details = jsonObject["results"][0]["details"];
     instruction = jsonObject["results"][0]["instruction"];
+    created = jsonObject["results"][0]["created"];
+    updated = jsonObject["results"][0]["updated"];
     strResults = str(myid) + "|" + str(owner_id) + "|" + name + "|" + summary + "|" 
     strResults += str(views) + "|" + str(skulls) +  "|" + str(followers) + "|" + str(logs) 
-    strResults += "|" + str(details) + "|" + str(instruction)
+    strResults += "|" + str(details) + "|" + str(instruction) + "|" + str(created)
+    strResults += "|" + str(updated)
     print(strResults)
     # sleep for a few seconds
     sleep(5)
