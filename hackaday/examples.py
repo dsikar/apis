@@ -2,6 +2,7 @@ import pycurl
 from io import BytesIO
 import json
 from time import sleep
+import sys
 
 ####################
 # Hackaday scraper #
@@ -106,11 +107,11 @@ urlWithAPI = getURLWithAPI();
 urlcnt = urlWithAPI.replace("PGNUM", "1");
 iPgCnt = getPageCount(urlcnt)
 print(iPgCnt);
+sys.exit();
 
-url = getURLWithAPI();
 for x in range(1, iPgCnt+1):
-    url1 = url.replace("PGNUM", str(x));
-    mybody = getURLbody(url1);
+    url = urlWithAPI.replace("PGNUM", str(x));
+    mybody = getURLbody(url);
     # print(mybody);
     # myproj = getKey('results', mybody);
     jsonObject = json.loads(mybody.decode('iso-8859-1'))
@@ -134,15 +135,4 @@ for x in range(1, iPgCnt+1):
     print(strResults)
     # sleep for a few seconds
     sleep(5)
-
-
-# TODO 1. Split functions:
-#       1.1 Generate pycurl request string
-#       1.2 Stringbuilder
-#       1.3 Json Parser
-
-#for x in range(iPgCnt+1):
-#    print(x) # iterate through all found pages, extracting as required
-#    sleep(0.2) # hackaday api allows 10 reads per sec, working with 5 to be on safe side
-    # Lower priority (equally important) TODO 2. store - flat file or database
 
