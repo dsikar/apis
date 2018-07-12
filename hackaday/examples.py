@@ -107,7 +107,6 @@ urlWithAPI = getURLWithAPI();
 urlcnt = urlWithAPI.replace("PGNUM", "1");
 iPgCnt = getPageCount(urlcnt)
 print(iPgCnt);
-sys.exit();
 
 for x in range(1, iPgCnt+1):
     url = urlWithAPI.replace("PGNUM", str(x));
