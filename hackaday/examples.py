@@ -3,6 +3,7 @@ from io import BytesIO
 import json
 from time import sleep
 import sys
+import sqlite3
 
 ####################
 # Hackaday scraper #
