@@ -41,6 +41,7 @@ def pagenumber(a):
 def getApiKey():
     f=open("api-key/plain-text-key", "r")
     APIKEY=f.read()
+    f.close()
     APIKEY=APIKEY.strip()
     return APIKEY
 

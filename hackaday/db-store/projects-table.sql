@@ -1,0 +1,5 @@
+-- CREATE PROJECTS TABLE
+
+-- IF NOT EXIST etc
+
+CREATE TABLE etc...
