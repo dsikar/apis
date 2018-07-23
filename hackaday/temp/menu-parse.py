@@ -8,8 +8,8 @@ with open('json_menus.php', 'r', encoding='utf-8') as f:
 iSizeArray=len(data['menus'])
 
 def InsertRow(MenuMain, MenuSub, MenuID):
-    strSQL = 'Insert into tblMenus(MenuMain, MenuSub, MenuID)'
-    strSQL += ' VALUES ("' + MenuMain + '","' + MenuSub + '", ' + str(MenuID) + ');'
+    strSQL = 'Insert into tblMenus(MenuMain, MenuSub, MenuID) '
+    strSQL += 'VALUES ("' + MenuMain + '","' + MenuSub + '", ' + str(MenuID) + ');'
     print(strSQL)
 
 
