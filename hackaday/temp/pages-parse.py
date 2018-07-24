@@ -25,11 +25,7 @@ def InsertRow(idx, Title, Title2, stockcode, InMenu, ImageMini, Image1,
     strSQL += str(InMenu) + ', "' + ImageMini + '", "' + Image1 + '", "'
     strSQL += Image2 + '", "' + Image3 + '", "' + Image4 + '", "' + Image5 + '", "'
     strSQL += long + '", "' + hasPDF + '", ' + str(pageID) + ');'
-    # prepare string
-    #strSQL = strSQL.encode("utf-8")
-    #strSQL = strSQL.strip()
-    # ExecSQL(strSQL)
-    if idx == 181:
+    if idx == 181: # problem Ω ohm character - needs fixing 
         print(strSQL.encode('utf-8'))
     else:
         ExecSQL(strSQL)

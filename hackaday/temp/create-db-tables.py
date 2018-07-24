@@ -1,5 +1,5 @@
 import sqlite3
-# Create tables for Fireclass app
+# create database and tables for Fireclass app
 # connect
 conn=sqlite3.connect('fireclass.db')
 strSQL = 'CREATE TABLE \'tblPages\' (\'Title\' TEXT, \'Title2\' TEXT, \'stockcode\' TEXT, \'InMenu\' INTEGER, \'ImageMini\' TEXT, \'Image1\' TEXT, \'Image2\' TEXT, \'Image3\' TEXT, \'Image4\' TEXT, \'Image5\' TEXT, \'long\' TEXT, \'hasPDF\' TEXT, \'pageID\' INTEGER);' # PRIMARY KEY NOT NULL);'

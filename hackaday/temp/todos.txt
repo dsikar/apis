@@ -1,6 +1,6 @@
 w/e 2018.07.27
 
-•	Finish python json parsing scripts to insert json_pages.php and json_menus.php into tables DS
+•	Finish python json parsing scripts to insert json_pages.php and json_menus.php into tables DS OK
 •	Copy pdfs and images from android application to server DS
 •	Build php pages to serve menu items and pages DS
 •	Document sqlite, apache and php server build DS

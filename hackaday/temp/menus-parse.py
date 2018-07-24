@@ -11,7 +11,7 @@ iSizeArray=len(data['menus'])
 def ExecSQL(strSQL):
     conn=sqlite3.connect('fireclass.db')
     c = conn.cursor()
-    print(strSQL)
+    # print(strSQL)
     c.execute(strSQL)
     conn.commit()
     conn.close()

@@ -3,15 +3,10 @@ import sqlite3
 # connect
 conn=sqlite3.connect('fireclass.db')
 cur = conn.cursor()
-# menus
-cur.execute("SELECT * FROM tblMenus")
-rows = cur.fetchall()
-for row in rows:
-	print(row[0])
 # pages
 cur.execute("SELECT * FROM tblPages")
 rows = cur.fetchall()
 for row in rows:
-	print(row[0])
+	print(row[0] + ", " + row[1])
 # close connection
 conn.close()
