@@ -22,7 +22,10 @@ import sqlite3
 #            | * ENTRIES (DOCUMENTATION)|
 #            | * COMMENTS               |
 #            +--------------------------+
-
+#                         |
+#                         |
+#                         v
+#                     Database
 
 #####################################
 # Base URL                          #
