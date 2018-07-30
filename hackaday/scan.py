@@ -106,6 +106,31 @@ def getURLWithAPI():
     APIKEY=getApiKey();
     return url.replace("APIKEY", APIKEY)
 
+# execute sql statement
+def ExecSQL(strSQL):
+    conn=sqlite3.connect('hackaday.db')
+    c = conn.cursor()
+    c.execute(strSQL)
+    conn.commit()
+    conn.close()
+
+# Build insert string
+def InsertRow(idx, Title, Title2, stockcode, InMenu, ImageMini, Image1,
+        Image2, Image3, Image4, Image5, long, hasPDF, pageID):
+    strSQL = 'Insert into tblPages(Title, Title2, stockcode, InMenu, ImageMini, '
+    strSQL += 'Image1, Image2, Image3, Image4, Image5, long, hasPDF, pageID)'
+    strSQL += 'VALUES ("' + Title + '","' + Title2 + '", "' + stockcode + '", '
+    strSQL += str(InMenu) + ', "' + ImageMini + '", "' + Image1 + '", "'
+    strSQL += Image2 + '", "' + Image3 + '", "' + Image4 + '", "' + Image5 + '", "'
+    strSQL += long + '", "' + hasPDF + '", ' + str(pageID) + ');'
+    if idx == 181: # problem Ω ohm character - needs fixing 
+        print(strSQL.encode('utf-8'))
+    elif pageID == 156:
+        print('pageID 156 needs \n fixing (breaking json at the moment)')
+    else:
+        ExecSQL(strSQL)
+
+
 # Go through pages
 
 urlWithAPI = getURLWithAPI();
