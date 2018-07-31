@@ -108,30 +108,23 @@ def getURLWithAPI():
 
 # execute sql statement
 def ExecSQL(strSQL):
-    conn=sqlite3.connect('hackaday.db')
-    c = conn.cursor()
-    c.execute(strSQL)
-    conn.commit()
-    conn.close()
+    print(strSQL)
+    #conn=sqlite3.connect('hackaday.db')
+    #c = conn.cursor()
+    #c.execute(strSQL)
+    #conn.commit()
+    #conn.close()
 
 # Build insert string
-def InsertRow(idx, Title, Title2, stockcode, InMenu, ImageMini, Image1,
-        Image2, Image3, Image4, Image5, long, hasPDF, pageID):
-    strSQL = 'Insert into tblPages(Title, Title2, stockcode, InMenu, ImageMini, '
-    strSQL += 'Image1, Image2, Image3, Image4, Image5, long, hasPDF, pageID)'
-    strSQL += 'VALUES ("' + Title + '","' + Title2 + '", "' + stockcode + '", '
-    strSQL += str(InMenu) + ', "' + ImageMini + '", "' + Image1 + '", "'
-    strSQL += Image2 + '", "' + Image3 + '", "' + Image4 + '", "' + Image5 + '", "'
-    strSQL += long + '", "' + hasPDF + '", ' + str(pageID) + ');'
-    if idx == 181: # problem Ω ohm character - needs fixing 
-        print(strSQL.encode('utf-8'))
-    elif pageID == 156:
-        print('pageID 156 needs \n fixing (breaking json at the moment)')
-    else:
-        ExecSQL(strSQL)
-
-
-# Go through pages
+def InsertRow(myid, owner_id, name, summary, views, skulls, followers,
+        logs, details, instruction, created, updated):
+    strSQL = 'Insert into tblProjects(id, owner_id, name, summary, views, '
+    strSQL += 'skulls, followers, logs, details, instruction, created, updated)'
+    strSQL += 'VALUES (' + str(myid) + ',' + str(owner_id) + ', "' + name + '", "'
+    strSQL += summary + '", ' + str(views) + ', ' + str(skulls) + ', '
+    strSQL += str(followers) + ', ' + str(logs) + '", ' + str(details) + ', '
+    strSQL += str(instruction) + ', ' + str(created) + ', ' + str(updated) + ');'
+    ExecSQL(strSQL)
 
 urlWithAPI = getURLWithAPI();
 urlcnt = urlWithAPI.replace("PGNUM", "1");
@@ -161,7 +154,8 @@ for x in range(1, iPgCnt+1):
     strResults += str(views) + "|" + str(skulls) +  "|" + str(followers) + "|" + str(logs) 
     strResults += "|" + str(details) + "|" + str(instruction) + "|" + str(created)
     strResults += "|" + str(updated)
-    print(strResults)
+    InsertRow(myid, owner_id, name, summary, views, skulls, followers,
+        logs, details, instruction, created, updated)
     # sleep for a few seconds
     sleep(5)
 
