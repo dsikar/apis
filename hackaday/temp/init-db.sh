@@ -8,11 +8,20 @@ python create-db-tables.py
 sleep 0.5
 # insert data
 echo "Inserting menu data..."
-python menus-parse.py sleep 0.5 echo "Inserting pages data..." python3 pages-parse.py
+python menus-parse.py
+sleep 0.5
+echo "Inserting text data..."
+python text-parse.py
+sleep 0.5
+echo "Inserting pages data..."
+python pages-parse.py
 # display data
 sleep 0.5
 echo "Selecting inserted menu data..."
 python menus-show-data.py
+sleep 0.5
+echo "Selecting inserted text data..."
+python text-show-data.py
 sleep 0.5
 echo "Selecting inserted pages data..."
 python pages-show-data.py

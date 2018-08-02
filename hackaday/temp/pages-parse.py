@@ -27,8 +27,6 @@ def InsertRow(idx, Title, Title2, stockcode, InMenu, ImageMini, Image1,
     strSQL += long + '", "' + hasPDF + '", ' + str(pageID) + ');'
     if idx == 181: # problem Ω ohm character - needs fixing 
         print(strSQL.encode('utf-8'))
-    elif pageID == 156:
-        print('pageID 156 needs \n fixing (breaking json at the moment)')
     else:
         ExecSQL(strSQL)
 

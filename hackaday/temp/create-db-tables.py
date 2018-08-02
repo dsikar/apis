@@ -8,5 +8,8 @@ conn.execute(strSQL)
 strSQL = 'CREATE TABLE \'tblMenus\' (\'MenuMain\' TEXT NOT NULL, \'MenuSub\' TEXT, \'MenuID\' INTEGER);' # PRIMARY KEY NOT NULL);'
 # create menus table
 conn.execute(strSQL)
+strSQL = 'CREATE TABLE \'tblText\' (\'Label\' TEXT NOT NULL, \'Text\' TEXT);' 
+# create menus table
+conn.execute(strSQL)
 # close connection
 conn.close()
