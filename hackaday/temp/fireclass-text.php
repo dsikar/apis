@@ -12,8 +12,8 @@ If no menu id given, return all.
 $label = $_GET["label"];
 // where statement
 $where = "";
-if(is_numeric($id)){
-	$where = " WHERE Label = " . intval($label);
+if($label){
+	$where = " WHERE Label = '" . $label . "'";
 }
 // connect
 $db = new SQLite3('/home/ubuntu/sqlite/fireclass.db');
