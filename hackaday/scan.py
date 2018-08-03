@@ -108,12 +108,12 @@ def getURLWithAPI():
 
 # execute sql statement
 def ExecSQL(strSQL):
-    print(strSQL)
-    #conn=sqlite3.connect('hackaday.db')
-    #c = conn.cursor()
-    #c.execute(strSQL)
-    #conn.commit()
-    #conn.close()
+    #print(strSQL)
+    conn=sqlite3.connect('hackaday.db')
+    c = conn.cursor()
+    c.execute(strSQL)
+    conn.commit()
+    conn.close()
 
 # Build insert string
 def InsertRow(myid, owner_id, name, summary, views, skulls, followers,
@@ -122,14 +122,19 @@ def InsertRow(myid, owner_id, name, summary, views, skulls, followers,
     strSQL += 'skulls, followers, logs, details, instruction, created, updated)'
     strSQL += 'VALUES (' + str(myid) + ',' + str(owner_id) + ', "' + name + '", "'
     strSQL += summary + '", ' + str(views) + ', ' + str(skulls) + ', '
-    strSQL += str(followers) + ', ' + str(logs) + '", ' + str(details) + ', '
+    strSQL += str(followers) + ', ' + str(logs) + ', ' + str(details) + ', '
     strSQL += str(instruction) + ', ' + str(created) + ', ' + str(updated) + ');'
+    print(strSQL)
     ExecSQL(strSQL)
 
 urlWithAPI = getURLWithAPI();
 urlcnt = urlWithAPI.replace("PGNUM", "1");
 iPgCnt = getPageCount(urlcnt)
 print(iPgCnt);
+
+# knobling value to test
+iPgCnt = 5
+
 
 for x in range(1, iPgCnt+1):
     url = urlWithAPI.replace("PGNUM", str(x));
@@ -150,12 +155,8 @@ for x in range(1, iPgCnt+1):
     instruction = jsonObject["results"][0]["instruction"];
     created = jsonObject["results"][0]["created"];
     updated = jsonObject["results"][0]["updated"];
-    strResults = str(myid) + "|" + str(owner_id) + "|" + name + "|" + summary + "|" 
-    strResults += str(views) + "|" + str(skulls) +  "|" + str(followers) + "|" + str(logs) 
-    strResults += "|" + str(details) + "|" + str(instruction) + "|" + str(created)
-    strResults += "|" + str(updated)
     InsertRow(myid, owner_id, name, summary, views, skulls, followers,
         logs, details, instruction, created, updated)
-    # sleep for a few seconds
-    sleep(5)
+    # sleep for a one second
+    sleep(1)
 
