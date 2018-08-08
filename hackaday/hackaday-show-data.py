@@ -8,8 +8,7 @@ cur.execute("SELECT COUNT(*) FROM tblProjects")
 rows = cur.fetchall()
 for row in rows:
 	strPrint = str(row[0]);
-strSQL = "Total rows in tblProjects = " + strPrint
-print(strSQL)
+print("Total rows in tblProjects = " + strPrint)
 # todo
 # number of records
 # top instructions
