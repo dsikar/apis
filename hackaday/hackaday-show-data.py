@@ -4,11 +4,12 @@ import sqlite3
 conn=sqlite3.connect('hackaday.db')
 cur = conn.cursor()
 # menus
-cur.execute("SELECT * FROM tblProjects")
+cur.execute("SELECT COUNT(*) FROM tblProjects")
 rows = cur.fetchall()
 for row in rows:
-	strPrint = str(row[0]) + ", " + str(row[1]) + ", " + row[2] + ", " + row[3] + ", " + str(row[4])
-	print(strPrint)
+	strPrint = str(row[0]);
+strSQL = "Total rows in tblProjects = " + strPrint
+print(strSQL)
 # todo
 # number of records
 # top instructions
@@ -18,8 +19,9 @@ for row in rows:
 # most critical mass build
 # top followers
 cur.execute("SELECT * FROM tblProjects ORDER BY followers DESC LIMIT 1")
+rows = cur.fetchall()
 for row in rows:
-	strPrint = str(row[0])
+	strPrint = str(row[2])
 	print(strPrint)
 # close connection
 conn.close()

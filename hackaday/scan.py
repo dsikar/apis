@@ -132,10 +132,6 @@ urlcnt = urlWithAPI.replace("PGNUM", "1");
 iPgCnt = getPageCount(urlcnt)
 print(iPgCnt);
 
-# knobling value to test
-iPgCnt = 5
-
-
 for x in range(1, iPgCnt+1):
     url = urlWithAPI.replace("PGNUM", str(x));
     mybody = getURLbody(url);
