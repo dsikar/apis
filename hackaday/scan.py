@@ -154,7 +154,7 @@ for x in range(1, iPgCnt+1):
     InsertRow(myid, owner_id, name, summary, views, skulls, followers,
         logs, details, instruction, created, updated)
     # sleep for a one second
-    strPrint = "Inserting " + str(x) + "/" + str(iPgCnt) + 1
+    strPrint = "Inserting " + str(x) + "/" + str(iPgCnt+1) 
     print(strPrint)
     sleep(1)
 
