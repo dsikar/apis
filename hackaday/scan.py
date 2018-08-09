@@ -124,7 +124,7 @@ def InsertRow(myid, owner_id, name, summary, views, skulls, followers,
     strSQL += summary + '", ' + str(views) + ', ' + str(skulls) + ', '
     strSQL += str(followers) + ', ' + str(logs) + ', ' + str(details) + ', '
     strSQL += str(instruction) + ', ' + str(created) + ', ' + str(updated) + ');'
-    # print(strSQL)
+    print(strSQL)
     ExecSQL(strSQL)
 
 urlWithAPI = getURLWithAPI();
