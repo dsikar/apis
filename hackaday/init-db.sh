@@ -8,7 +8,7 @@ python create-db-tables.py
 sleep 0.5
 # insert data
 echo "Inserting hackaday data..."
-python scan.py
+python scan.py >> scan-log.txt
 sleep 0.5
 # display data
 echo "Displaying inserted hackaday data..."
