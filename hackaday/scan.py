@@ -127,6 +127,9 @@ def InsertRow(myid, owner_id, name, summary, views, skulls, followers,
     print(strSQL)
     ExecSQL(strSQL)
 
+def SQLSafe(strSQL):
+    return strSQL.replace("\"", "\"\"")
+
 urlWithAPI = getURLWithAPI();
 urlcnt = urlWithAPI.replace("PGNUM", "1");
 iPgCnt = getPageCount(urlcnt)
@@ -142,7 +145,9 @@ for x in range(1, iPgCnt+1):
     myid = jsonObject["results"][0]["id"];
     owner_id = jsonObject["results"][0]["owner_id"];
     name = jsonObject["results"][0]["name"];
+    name = SQLSafe(name)
     summary = jsonObject["results"][0]["summary"];
+    summary = SQLSafe(summary)
     views = jsonObject["results"][0]["views"];
     skulls = jsonObject["results"][0]["skulls"];
     followers = jsonObject["results"][0]["followers"];
