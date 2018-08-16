@@ -22,5 +22,11 @@ rows = cur.fetchall()
 for row in rows:
 	strPrint = str(row[2])
 	print(strPrint)
+# skulls
+cur.execute("SELECT * FROM tblProjects ORDER BY skulls DESC LIMIT 1")
+rows = cur.fetchall()
+for row in rows:
+	strPrint = str(row[2])
+	print(strPrint)
 # close connection
 conn.close()
