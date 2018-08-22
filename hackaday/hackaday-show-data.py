@@ -42,5 +42,13 @@ for row in rows:
 	strPrint = str(row[2])
 	print(strPrint)
 
+# instruction 
+cur.execute("SELECT * FROM tblProjects ORDER BY instruction DESC LIMIT 1")
+rows = cur.fetchall()
+for row in rows:
+	strPrint = str(row[2])
+	print(strPrint)
+
+
 # close connection
 conn.close()
