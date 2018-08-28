@@ -125,7 +125,12 @@ def InsertRow(myid, owner_id, name, summary, views, skulls, followers,
     strSQL += str(followers) + ', ' + str(logs) + ', ' + str(details) + ', '
     strSQL += str(instruction) + ', ' + str(created) + ', ' + str(updated) + ');'
     print(strSQL)
-    ExecSQL(strSQL)
+    try:
+        ExecSQL(strSQL)
+        break
+    except ValueError:
+        print("Failed to insert this record")
+        pass
 
 def SQLSafe(strSQL):
     return strSQL.replace("\"", "\"\"")
