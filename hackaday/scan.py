@@ -127,7 +127,6 @@ def InsertRow(myid, owner_id, name, summary, views, skulls, followers,
     print(strSQL)
     try:
         ExecSQL(strSQL)
-        break
     except ValueError:
         print("Failed to insert this record")
         pass
