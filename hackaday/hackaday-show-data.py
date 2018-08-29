@@ -49,6 +49,12 @@ for row in rows:
 	strPrint = str(row[2])
 	print(strPrint)
 
-
+# most recently created
+cur.execute("SELECT * FROM tblProjects ORDER BY created DESC LIMIT 1")
+rows = cur.fetchall()
+for row in rows:
+	strPrint = str(row[2])
+	print(strPrint)
+	
 # close connection
 conn.close()
