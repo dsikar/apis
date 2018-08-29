@@ -127,7 +127,6 @@ def InsertRow(myid, owner_id, name, summary, views, skulls, followers,
     print(strSQL)
     try:
         ExecSQL(strSQL)
-        break
     except ValueError:
         print("Failed to insert this record")
         pass
@@ -145,7 +144,7 @@ for x in range(1, iPgCnt+1):
     mybody = getURLbody(url);
     # print(mybody);
     # myproj = getKey('results', mybody);
-    jsonObject = json.loads(mybody.decode('iso-8859-1'))
+    jsonObject = json.loads(mybody.decode('utf-8')) #iso-8859-1'))
     total = jsonObject["total"];
     myid = jsonObject["results"][0]["id"];
     owner_id = jsonObject["results"][0]["owner_id"];
