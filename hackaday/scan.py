@@ -111,6 +111,9 @@ def ExecSQL(strSQL):
     #print(strSQL)
     conn=sqlite3.connect('hackaday.db')
     c = conn.cursor()
+    
+    # TODO error trapping candidate - add
+    
     c.execute(strSQL)
     conn.commit()
     conn.close()
@@ -144,6 +147,9 @@ for x in range(1, iPgCnt+1):
     mybody = getURLbody(url);
     # print(mybody);
     # myproj = getKey('results', mybody);
+    
+    # TODO error trapping candidate
+    
     jsonObject = json.loads(mybody.decode('iso-8859-1'))
     total = jsonObject["total"];
     myid = jsonObject["results"][0]["id"];
