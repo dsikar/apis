@@ -139,29 +139,44 @@ urlcnt = urlWithAPI.replace("PGNUM", "1");
 iPgCnt = getPageCount(urlcnt)
 print(iPgCnt);
 
+def getJsonObject(jobj, key, index, label):
+    retval = ""
+    try:
+        retval = jobj[key][index][label]
+    except ValueError:
+        strErrMsg = "Failed to retrieve key " + key + ", index " + str(index) + ", label = " + label
+        retval = strErrMsg
+        print(strErrMsg)
+    return retval
+
 for x in range(1, iPgCnt+1):
     url = urlWithAPI.replace("PGNUM", str(x));
     mybody = getURLbody(url);
     # print(mybody);
     # myproj = getKey('results', mybody);
-    jsonObject = json.loads(mybody.decode('utf-8')) #iso-8859-1'))
-    total = jsonObject["total"];
-    myid = jsonObject["results"][0]["id"];
-    owner_id = jsonObject["results"][0]["owner_id"];
-    name = jsonObject["results"][0]["name"];
-    name = SQLSafe(name)
-    summary = jsonObject["results"][0]["summary"];
-    summary = SQLSafe(summary)
-    views = jsonObject["results"][0]["views"];
-    skulls = jsonObject["results"][0]["skulls"];
-    followers = jsonObject["results"][0]["followers"];
-    logs = jsonObject["results"][0]["logs"];
-    details = jsonObject["results"][0]["details"];
-    instruction = jsonObject["results"][0]["instruction"];
-    created = jsonObject["results"][0]["created"];
-    updated = jsonObject["results"][0]["updated"];
-    InsertRow(myid, owner_id, name, summary, views, skulls, followers,
-        logs, details, instruction, created, updated)
+    try:
+        jsonObject = json.loads(mybody.decode('utf-8')) #iso-8859-1'))
+        total = jsonObject["total"];
+        myid = jsonObject["results"][0]["id"];
+        owner_id = jsonObject["results"][0]["owner_id"];
+        name = jsonObject["results"][0]["name"];
+        name = SQLSafe(name)
+        summary = jsonObject["results"][0]["summary"];
+        summary = SQLSafe(summary)
+        views = jsonObject["results"][0]["views"];
+        skulls = jsonObject["results"][0]["skulls"];
+        followers = jsonObject["results"][0]["followers"];
+        logs = jsonObject["results"][0]["logs"];
+        details = jsonObject["results"][0]["details"];
+        instruction = jsonObject["results"][0]["instruction"];
+        created = jsonObject["results"][0]["created"];
+        updated = jsonObject["results"][0]["updated"];
+        InsertRow(myid, owner_id, name, summary, views, skulls, followers,
+            logs, details, instruction, created, updated)
+    except ValueError:
+        print("Failed to run InsertRow()")
+        pass
+
     # sleep for a one second
     strPrint = "Inserting " + str(x) + "/" + str(iPgCnt+1) 
     print(strPrint)
