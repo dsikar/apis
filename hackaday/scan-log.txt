@@ -170,3 +170,537 @@ Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, l
 Inserting 79/3993
 Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (159179,216701, "ESP8266 Arduino Tutorial: Getting temperature and ", "we will check how to get temperature and humidity measurements from a DHT22 sensor, with the Arduino IDE running on the ESP8266.", 17, 0, 0, 0, 1, 0, 1529564421, 1529564677);
 Inserting 80/3993
+4056
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (9600,94265, "Sunset lamp", "A lamp the changes with the sun", 1375, 6, 11, 8, 1, 1, 1455009746, 1456369883);
+Inserting 1/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (12195,147515, "Weather & plant monitoring station", "Arduino controlled wifi weather station, with local database, dashboard and online controllable watering system.", 2027, 8, 16, 3, 1, 1, 1465740530, 1484726038);
+Inserting 2/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (7172,86273, "rgbcubes - iot finder", "glowy cubes (ws2812b) made from frosted acrylic with web service to easily find it on your network.", 1912, 38, 1378, 7, 1, 0, 1439405185, 1473634349);
+Inserting 3/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (28942,161162, "Voice activated dog feeder", "A voice activated dog feeder - using Google Home, IFTTT, Node-red, MQTT and an ESP8266. ", 343, 2, 2, 0, 1, 0, 1514814807, 1519294172);
+Inserting 4/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (12708,63796, "Uncontrolled Mechanical Ventilation", "Automatic CMV", 1961, 10, 12, 10, 1, 7, 1468603322, 1482081464);
+Inserting 5/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (16705,18020, "Wireless mqtt temp sensor", "I've started long time ago to create surely but slowly and no wire attached temperatures sensor and I wanted a place to post my progress. ", 1006, 1, 3, 1, 0, 0, 1477544301, 1477699594);
+Inserting 6/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (12066,13270, "uRADMonitor A3", "A versatile IOT device designed to track 8 air parameters and map pollution, with both wired and wireless Internet connectivity", 2749, 47, 55, 8, 1, 0, 1464983280, 1511479395);
+Inserting 7/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (19570,177833, "HTC vive lighthouse custom tracking ", "3d position tracking using our own design of the sensors, an altera fpga for decoding the signals and custom code for triangulation and poseestimation", 7042, 22, 31, 8, 1, 0, 1485264871, 1526339921);
+Inserting 8/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (21894,219612, "ESP8266", "I need help using a esp8266 as a wireless access point, so when people connect all their data flows through the esp and gets send directly", 211, 1, 6, 0, 0, 0, 1494353508, 0);
+Inserting 9/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (19550,181718, "ESP8266 Nixie", "ESP8266-Based Nixie Clock W/Sensors", 1180, 5, 4, 0, 1, 0, 1485118211, 1485121470);
+Inserting 10/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (17952,159036, "esp8266/TLS", "enable TLS for esp8266-based arduino boards, both server and client", 339, 0, 6, 0, 0, 0, 1478291698, 1478291816);
+Inserting 11/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (3253,32012, "ESP8266 Native", "Exploring running native applications on the ESP8266 modules", 43666, 33, 400, 9, 1, 0, 1414473898, 1428147641);
+Inserting 12/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (22512,216701, "ESP8266 micropython- Tutorial 2: Micropython GPIO", "ESP8266 micropython- Tutorial 2: Micropython GPIO", 427, 1, 3, 0, 1, 0, 1495272377, 1495273367);
+Inserting 13/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (19376,187168, "ESP8266 Arduino Tutorial and Review", "Cheap WiFi Module for Internet of Things (IoT) projects", 839, 4, 799, 0, 0, 0, 1484125568, 1524296772);
+Inserting 14/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (22497,216701, "ESP8266 micropython- Tutorial 1: Introduction", "ESP8266 micropython- Tutorial 1: Introduction, some basic description about esp8266 micropython.", 271, 1, 7, 0, 1, 0, 1495271657, 1495272203);
+Inserting 15/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (24882,216701, "ESP8266 Micropython -Tutorial 5: Micropython UDP", "ESP8266 Micropython -Tutorial 5: Micropython UDP", 518, 2, 3, 0, 1, 0, 1495610743, 1499752995);
+Inserting 16/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (26262,181718, "ESP8266 Altair 8800b Emulator,  Telnet Support", "Building on the work of dankar, I wondered if his code could be ported to the ESP8266. It could. Then I added features.", 490, 4, 4, 0, 1, 0, 1502043132, 1504576207);
+Inserting 17/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (25359,225995, "ESP8266 Twitter Client", "ESP8266 Twitter client with OLED display", 3538, 22, 21, 5, 1, 0, 1496949088, 1503256638);
+Inserting 18/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (6453,77183, "ESP8266 Parasite", "A development board built to be able to go inside another project to enable wifi control", 3286, 6, 819, 5, 1, 0, 1435306875, 1437127007);
+Inserting 19/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (3954,11206, "LuaLoader for ESP8266", "A Windows serial interface with handy buttons to interface with the Lua interpreter on the ESP8266. 
+For learning and development.", 5507, 8, 46, 0, 1, 0, 1421792018, 1423506909);
+Inserting 20/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (3650,37878, "ESP8266 EasyIoT Arduino library", "With ESP8266 EasyIoT library making WiFi sensors is easy. Create WiFi Arduino sensor with couple lines of code.", 27951, 40, 230, 7, 0, 0, 1418985405, 1434019983);
+Inserting 21/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (13065,46565, "Immerlicht ESP8266", "A esp8266 based LEDStrip with a webGUI and an AndroidApp", 539, 3, 6, 1, 1, 0, 1470661254, 1505997000);
+Inserting 22/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (160597,339748, "ESP8266 websocket", "WebSocket is a computer communications protocol, Here we are using with ESP8266 Wi-Fi Microcontroller ", 51, 0, 0, 0, 1, 0, 1534677078, 1534677283);
+Inserting 23/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (24881,216701, "ESP8266 Micropython - Tutorial 4: How To Interrupt", "ESP8266 Micropython - Tutorial 4: How To Interrupt Micropython, learn now!", 370, 1, 2, 0, 1, 0, 1495610387, 1495610553);
+Inserting 24/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (16298,121802, "AGI-ESP8266", "WiFi accessible IoT plant monitoring system", 4784, 16, 355, 22, 1, 1, 1476324253, 1522637897);
+Inserting 25/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (9796,121629, "ESP8266 gate sensor", "ESP8266 gate sensor to notify me when delinquent teenagers open my backyard gate.", 1458, 2, 8, 4, 1, 0, 1456074403, 1456075239);
+Inserting 26/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (10034,47051, "ESP8266 + OLED Display", "An exercise of connecting the ESP-12 DevKit board running nodemcu to a 4 pin I2C OLED Display", 40631, 29, 72, 2, 1, 4, 1457295228, 1457495312);
+Inserting 27/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (21161,25123, "ESP8266 Wireless AVR (Arduino) Programmer", "Using an ESP8266 to program AVR micros.", 1062, 3, 861, 0, 1, 0, 1492091609, 1524297441);
+Inserting 28/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (6843,953, "ESP8266-01 breakout board", "breakout board for ESP8266-01. Forked from https://hackaday.io/project/5728-esp8266-01-breakout.", 3425, 12, 31, 2, 1, 1, 1437393670, 1440942693);
+Inserting 29/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (10828,88650, "ESP8266 Anemometer", "Wireless WIFI Anemometer using ESP12e", 3696, 7, 25, 0, 0, 0, 1460216306, 1461365334);
+Inserting 30/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (8756,76288, "ESP8266 Game", "A gameboy like board for the ESP8266 with OLED, Sound, Analog Joystick, and 4 action buttons!", 5657, 26, 32, 4, 0, 0, 1449910167, 1450599573);
+Inserting 31/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (3568,39748, "ESP8266 Test Program", "A Project to Test Low-Cost ESP8266 Wifi Module with Easy PC Program for Beginners", 39661, 85, 763, 4, 1, 0, 1417964178, 1475399605);
+Inserting 32/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (9309,115974, "ESP8266 Dongle", "This project aims to build a cheap esp8266 dev-board that plugs in a PC for programming and can be powered with a phone charger or powerbank", 1978, 10, 68, 0, 1, 0, 1453644512, 1453660057);
+Inserting 33/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (6206,53007, "YAW - ESP8266", "Yet Another Weather station  that is updated by internet.
+This one runs on a standalone ESP8266 with an OLED display", 2052, 5, 26, 0, 0, 0, 1433895946, 1433896363);
+Inserting 34/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (12713,98690, "Blink with ESP8266 and Visuino", "Program ESP2866 with Visuino to flash a LED", 2629, 6, 494, 0, 1, 7, 1468638749, 1521067911);
+Inserting 35/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (26931,234251, "Yet Another ESP8266 Nixie Clock", "A Nixie clock based on V.G.C. idea and code but using a Nodemcu Lua ESP8266 and my Nixie driver board.", 984, 5, 92, 0, 0, 0, 1503402703, 1517922490);
+Inserting 36/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (13322,154830, "ESP8266 Useless Throwie", "A useless box with a web interface served from a free hotspot", 5189, 15, 14, 0, 1, 1, 1472141287, 1472434315);
+Inserting 37/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (5728,8, "ESP8266-01 Breakout", "Cool little ESP8266 Breakout Board / Flasher for NodeMCU", 9219, 35, 74, 4, 1, 1, 1431282896, 1459321413);
+Inserting 38/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (21455,49105, "Waterpump control with ESP8266", "Control waterpump with ESP8266 with some extra safety checks.", 1208, 8, 13, 7, 0, 0, 1493142263, 1506277036);
+Inserting 39/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (76784,178698, "ESP8266 Web Interface", "Web interface RGB colorful button for nodemcu or esp8266 based project  ", 768, 2, 5, 0, 0, 0, 1520329429, 1520780230);
+Inserting 40/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (6132,53007, "ESP8266+OLED", "ESP8266-01 server, programmed in Arduino-C,  + I2C oled  to display text-messages  of upto 128 characters that are typed in a browser.
+", 37021, 38, 659, 1, 1, 3, 1433451974, 1434128205);
+Inserting 41/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (10057,39565, "ESP8266 websocket", "ESP8266 websocket html5", 10491, 12, 25, 1, 1, 0, 1457429693, 1457625540);
+Inserting 42/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (7164,50811, "ESP8266 DMA I2S WS2812 Driver", "(ab)use the I2S + DMA on the ESP8266 to drive some WS2812(b)'s.", 5245, 29, 1439, 0, 0, 0, 1439352468, 1439358807);
+Inserting 43/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (14829,168242, "Smart Home Power Relay (ESP8266)", "PowerSupply, Relay and Wifi (ESP8266-12) Modules", 2520, 6, 19, 0, 1, 0, 1474060632, 1474104891);
+Inserting 44/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (4318,7528, "VU-meter Esp8266 - WS2812B", "VU-meter (Winamp plugin ) sending udp to a Esp8266 controlling a Ws2812B", 17278, 28, 447, 5, 1, 6, 1423779776, 1465073298);
+Inserting 45/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (27304,248881, "NodeMCU ESP8266 Lego Controller", "Control your Lego with cheap stepper and ESP8266 controller with tablet or handy", 490, 1, 0, 0, 0, 0, 1505475822, 0);
+Inserting 46/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (3965,11459, "ESP8266 Dev-Board ", "Create a development board for ESP8266 with One-Layer  PBC and ""normal"" components. 
+Third version is ready. 
+For ESP-01, -03, -07 or -12
+", 5245, 19, 1031, 7, 1, 0, 1421810088, 1434211308);
+Inserting 47/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (4422,52143, "ESP8266 - native switcher", "ESP8266 + 2 relay module + usb charger. 
+As simple as possible two channels switcher controlled from web", 33675, 20, 86, 1, 1, 8, 1424725396, 1430769510);
+Inserting 48/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (160007,327698, "ESP8266 Arduino Tutorials", "Use the power and simplicity of the Arduino platform to bring your IoT projects up to speed quickly, with the ESP8266!", 1886, 6, 45, 0, 1, 2, 1532609579, 1533929285);
+Inserting 49/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (2879,667, "ESP8266 WiFi Module Library", "A project researching the capabilities and use of the newly available ESP8266 low-cost WiFi module.", 156925, 221, 944, 4, 0, 0, 1409162041, 1411759490);
+Inserting 50/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (19162,132329, "ESP8266 Temperature controller", "ESP8266 based control of 0-10VDC analog output and 2 binary outs", 449, 1, 5, 0, 0, 0, 1482968811, 1482968830);
+Inserting 51/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (20750,126984, "Homefixer ESP8266 devboard", "A lightweight and simple devboard for ESP8266-12 with 2.54mm breadboard pinout and works with 1V-5.5V batteries", 2099, 13, 20, 8, 1, 1, 1490788479, 1519071379);
+Inserting 52/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (4330,3052, "ESP8266 wifi light dimmer", "Inexpensive ESP8266 wifi light dimmer.", 30980, 20, 231, 2, 1, 0, 1423888436, 1429075858);
+Inserting 53/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (6750,9726, "ESP8266 Greenhouse monitor", "A device that would measure air humidity, temperature, sun luminosity, air quality and soil moisture and transmit it over WiFI.", 1633, 10, 36, 0, 0, 0, 1436783338, 0);
+Inserting 54/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (9126,6563, "ESP8266 on ""Staroids""", "In the on-going quest to see how far the ESP8266 Series 12e modules can be stretched, I have devised a game code named ""Staroids"". ", 1329, 11, 453, 0, 1, 1, 1452378084, 1515418849);
+Inserting 55/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (6308,23167, "Foofy Weensy - Teensy + ESP8266", "A Teensy development board which includes a ESP8266 and Lipo charger.", 2784, 13, 385, 4, 1, 0, 1434322338, 1436066425);
+Inserting 56/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (19684,49105, "Howto: Program ESP8266 with ease", "Simple step-by-step instruction of programming ESP8266 ESP-12E using Linux and Platformio ", 466, 0, 5, 0, 1, 0, 1485932734, 1485935233);
+Inserting 57/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (9398,1545, "ESP8266-01 Development board", "A quick and easy dev board for the esp8266-01 board", 598, 1, 0, 1, 1, 14, 1454203932, 1454277199);
+Inserting 58/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (7695,6563, "ESP8266 WiFi controlled Hamster", "Using ESP8266 WiFi modules to remotely control 
+Stepper motors and other cool stuff", 2267, 9, 8, 0, 1, 1, 1442505962, 1457518089);
+Inserting 59/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (11085,110873, "ESP8266 based soil monitoring", "measurement of plant vitals under $15", 1229, 8, 29, 0, 1, 0, 1460870286, 1460870761);
+Inserting 60/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (6886,441, "ESP8266 Sprinkler Controller", "Wireless sprinkler controller, to replace a consumer unit that broke", 1220, 7, 10, 6, 0, 0, 1437604067, 1440533449);
+Inserting 61/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (24507,216701, "ESP8266 micropython - Tutorial 3: Micropython Tim", "Timer
+
+ESP8266 micropython tutorial 3: To use timer, we need to import Timer library first from machine importTimer", 457, 0, 2, 0, 1, 0, 1495461045, 1495609541);
+Inserting 62/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (3403,6634, "ESP8266 Phant.io and Plot.ly thing", "Updates sensor data live to the cloud - with no external microcontroller.", 5181, 5, 324, 9, 0, 0, 1416368969, 1435694538);
+Inserting 63/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (4553,53209, "ESP8266 browser based Lua IDE", "Browser based Lua IDE for ESP8266", 6163, 10, 119, 0, 0, 0, 1425775554, 0);
+Inserting 64/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (20974,209603, "ESP8266 WIFI Remote Relay Switch", "http://geek.adachsoft.com/home/article/id/11/n/ESP8266-WIFI-Remote-Relay-Switch/refid/hd
+In this tutorial I will show you how to convert ...", 786, 5, 314, 0, 0, 0, 1491470864, 0);
+Inserting 65/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (5942,375, "ESP8266 Web Server (Without Arduino)", "How to build a web server with a $4 WiFi Module called ESP8266 without using an Arduino", 16259, 33, 319, 0, 0, 5, 1432390052, 1432390696);
+Inserting 66/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (6842,6318, "ESP8266 notifications via Pushetta", "Fast example on notifications", 1866, 5, 9, 0, 0, 0, 1437390963, 1437391097);
+Inserting 67/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (20290,187168, "Blynk Bridge tutorial with ESP8266", "Communicate between Internet of Things projects with Blynk Bridge", 679, 0, 133, 0, 0, 0, 1489245733, 0);
+Inserting 68/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (9772,6860, "ESP8266-01 Carrier", "Arduino-ish clone (ATMega32U4) with interface to ESP8266-01", 332, 0, 3, 2, 0, 0, 1455976128, 1456004560);
+Inserting 69/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (21758,216701, "ESP8266 Tutorial: Build An Automatic Plant Waterer", "ESP8266 Tutorial: Build An Automatic Plant Watering System, it's easy, step by step, learn more!", 510, 6, 3, 0, 1, 0, 1493976961, 1493977474);
+Inserting 70/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (8687,1545, "ESP8266 web based  temperature sensor", "Use an esp8266 to provide  temperature data to a web page.", 4783, 8, 18, 1, 1, 11, 1449436689, 1454874321);
+Inserting 71/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (4470,49497, "TinyESP ESP8266 Breadboard Adapter", "TinyESP is a tiny size breadboard adapter for ESP-12/ESP-07 ESP8266 WiFi module. It contains a 3.3V voltage LDO, a Reset button and a flash ", 3600, 14, 438, 2, 0, 0, 1425086365, 1426124104);
+Inserting 72/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (10583,47142, "ESP8266-Robotamy-Board", "An ESP8266 with a ALC5628 DAC+AMP capable of driving Motors and Servos intended for up-cycling old toys into web controlled talking robots.", 421, 6, 9, 4, 0, 0, 1459162582, 1463796007);
+Inserting 73/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (12866,16431, "ESP8266 Power Latch", "A small circuit to latch the power on when using an ESP8266 in a ""Dash Button"" style application", 3864, 6, 11, 2, 1, 0, 1469597528, 1479690811);
+Inserting 74/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (160006,327698, "ESP8266 SDK Tutorials", "Getting up to speed with the ESP8266 SDK has never been easier!", 1961, 8, 20, 0, 1, 7, 1532609456, 1535321660);
+Inserting 75/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (5939,2632, "ESP8266 AVR ISP Programmer", "I new I was going to have to make this a thing cause no one did it yet. Its an AVR ISP programmer implementation for the ESP8266 module", 3162, 8, 49, 0, 0, 0, 1432354473, 1432354569);
+Inserting 76/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (8457,169, "ESP8266 Remote Control", "ESP8266 enclosure. Listen for button press -> send http request.", 2024, 7, 761, 3, 1, 0, 1447646096, 1449275307);
+Inserting 77/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (20244,98807, "ESP8266 Wi-Fi - SCREW SHIELD", "Main idea for this project is to create an easy adaptable screw shield for ESP8266 - 05 Wi-Fi module.", 1043, 5, 7, 0, 1, 0, 1489094611, 1505335846);
+Inserting 78/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (9517,117737, "ESP8266 and Relay Control Using Smartphone", "ESP8266 & SUPLA", 5704, 8, 41, 0, 1, 9, 1454674200, 1454676582);
+Inserting 79/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (12933,67248, "ESP8266 Geiger counter", "Simple Geiger counter using ESP8266 PWM for HV generation and network connectivity", 7180, 19, 34, 11, 1, 0, 1469962818, 1476733549);
+Inserting 80/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (159471,327698, "ESP8266 Lua Tutorials", "NodeMCU brought a whole new paradigm to IoT -- using the Lua scripting language to built internet-connected apps with the ESP8266!", 978, 4, 11, 0, 1, 2, 1530638119, 1534173675);
+Inserting 81/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (28010,174207, "ESP8266 Oled Mini Quiz", "A small quiz game that reads questions from web and shows them on a small oled dispay, using a 3.6V battery, an ESP8266-01 and two buttons", 597, 9, 6, 0, 1, 5, 1509705786, 1509722281);
+Inserting 82/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (159179,216701, "ESP8266 Arduino Tutorial: Getting temperature and ", "we will check how to get temperature and humidity measurements from a DHT22 sensor, with the Arduino IDE running on the ESP8266.", 19, 0, 1, 0, 1, 0, 1529564421, 1529564677);
+Inserting 83/4057
+4056
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (9600,94265, "Sunset lamp", "A lamp the changes with the sun", 1375, 6, 11, 8, 1, 1, 1455009746, 1456369883);
+Inserting 1/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (12195,147515, "Weather & plant monitoring station", "Arduino controlled wifi weather station, with local database, dashboard and online controllable watering system.", 2027, 8, 16, 3, 1, 1, 1465740530, 1484726038);
+Inserting 2/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (7172,86273, "rgbcubes - iot finder", "glowy cubes (ws2812b) made from frosted acrylic with web service to easily find it on your network.", 1912, 38, 1378, 7, 1, 0, 1439405185, 1473634349);
+Inserting 3/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (28942,161162, "Voice activated dog feeder", "A voice activated dog feeder - using Google Home, IFTTT, Node-red, MQTT and an ESP8266. ", 343, 2, 2, 0, 1, 0, 1514814807, 1519294172);
+Inserting 4/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (12708,63796, "Uncontrolled Mechanical Ventilation", "Automatic CMV", 1961, 10, 12, 10, 1, 7, 1468603322, 1482081464);
+Inserting 5/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (16705,18020, "Wireless mqtt temp sensor", "I've started long time ago to create surely but slowly and no wire attached temperatures sensor and I wanted a place to post my progress. ", 1006, 1, 3, 1, 0, 0, 1477544301, 1477699594);
+Inserting 6/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (12066,13270, "uRADMonitor A3", "A versatile IOT device designed to track 8 air parameters and map pollution, with both wired and wireless Internet connectivity", 2749, 47, 55, 8, 1, 0, 1464983280, 1511479395);
+Inserting 7/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (19570,177833, "HTC vive lighthouse custom tracking ", "3d position tracking using our own design of the sensors, an altera fpga for decoding the signals and custom code for triangulation and poseestimation", 7042, 22, 31, 8, 1, 0, 1485264871, 1526339921);
+Inserting 8/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (21894,219612, "ESP8266", "I need help using a esp8266 as a wireless access point, so when people connect all their data flows through the esp and gets send directly", 211, 1, 6, 0, 0, 0, 1494353508, 0);
+Inserting 9/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (19550,181718, "ESP8266 Nixie", "ESP8266-Based Nixie Clock W/Sensors", 1180, 5, 4, 0, 1, 0, 1485118211, 1485121470);
+Inserting 10/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (17952,159036, "esp8266/TLS", "enable TLS for esp8266-based arduino boards, both server and client", 339, 0, 6, 0, 0, 0, 1478291698, 1478291816);
+Inserting 11/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (3253,32012, "ESP8266 Native", "Exploring running native applications on the ESP8266 modules", 43666, 33, 400, 9, 1, 0, 1414473898, 1428147641);
+Inserting 12/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (22512,216701, "ESP8266 micropython- Tutorial 2: Micropython GPIO", "ESP8266 micropython- Tutorial 2: Micropython GPIO", 427, 1, 3, 0, 1, 0, 1495272377, 1495273367);
+Inserting 13/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (19376,187168, "ESP8266 Arduino Tutorial and Review", "Cheap WiFi Module for Internet of Things (IoT) projects", 839, 4, 799, 0, 0, 0, 1484125568, 1524296772);
+Inserting 14/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (22497,216701, "ESP8266 micropython- Tutorial 1: Introduction", "ESP8266 micropython- Tutorial 1: Introduction, some basic description about esp8266 micropython.", 271, 1, 7, 0, 1, 0, 1495271657, 1495272203);
+Inserting 15/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (24882,216701, "ESP8266 Micropython -Tutorial 5: Micropython UDP", "ESP8266 Micropython -Tutorial 5: Micropython UDP", 518, 2, 3, 0, 1, 0, 1495610743, 1499752995);
+Inserting 16/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (26262,181718, "ESP8266 Altair 8800b Emulator,  Telnet Support", "Building on the work of dankar, I wondered if his code could be ported to the ESP8266. It could. Then I added features.", 490, 4, 4, 0, 1, 0, 1502043132, 1504576207);
+Inserting 17/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (25359,225995, "ESP8266 Twitter Client", "ESP8266 Twitter client with OLED display", 3538, 22, 21, 5, 1, 0, 1496949088, 1503256638);
+Inserting 18/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (6453,77183, "ESP8266 Parasite", "A development board built to be able to go inside another project to enable wifi control", 3286, 6, 819, 5, 1, 0, 1435306875, 1437127007);
+Inserting 19/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (3954,11206, "LuaLoader for ESP8266", "A Windows serial interface with handy buttons to interface with the Lua interpreter on the ESP8266. 
+For learning and development.", 5507, 8, 46, 0, 1, 0, 1421792018, 1423506909);
+Inserting 20/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (3650,37878, "ESP8266 EasyIoT Arduino library", "With ESP8266 EasyIoT library making WiFi sensors is easy. Create WiFi Arduino sensor with couple lines of code.", 27951, 40, 230, 7, 0, 0, 1418985405, 1434019983);
+Inserting 21/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (13065,46565, "Immerlicht ESP8266", "A esp8266 based LEDStrip with a webGUI and an AndroidApp", 539, 3, 6, 1, 1, 0, 1470661254, 1505997000);
+Inserting 22/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (160597,339748, "ESP8266 websocket", "WebSocket is a computer communications protocol, Here we are using with ESP8266 Wi-Fi Microcontroller ", 51, 0, 0, 0, 1, 0, 1534677078, 1534677283);
+Inserting 23/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (24881,216701, "ESP8266 Micropython - Tutorial 4: How To Interrupt", "ESP8266 Micropython - Tutorial 4: How To Interrupt Micropython, learn now!", 370, 1, 2, 0, 1, 0, 1495610387, 1495610553);
+Inserting 24/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (16298,121802, "AGI-ESP8266", "WiFi accessible IoT plant monitoring system", 4784, 16, 355, 22, 1, 1, 1476324253, 1522637897);
+Inserting 25/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (9796,121629, "ESP8266 gate sensor", "ESP8266 gate sensor to notify me when delinquent teenagers open my backyard gate.", 1458, 2, 8, 4, 1, 0, 1456074403, 1456075239);
+Inserting 26/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (10034,47051, "ESP8266 + OLED Display", "An exercise of connecting the ESP-12 DevKit board running nodemcu to a 4 pin I2C OLED Display", 40631, 29, 72, 2, 1, 4, 1457295228, 1457495312);
+Inserting 27/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (21161,25123, "ESP8266 Wireless AVR (Arduino) Programmer", "Using an ESP8266 to program AVR micros.", 1062, 3, 861, 0, 1, 0, 1492091609, 1524297441);
+Inserting 28/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (6843,953, "ESP8266-01 breakout board", "breakout board for ESP8266-01. Forked from https://hackaday.io/project/5728-esp8266-01-breakout.", 3425, 12, 31, 2, 1, 1, 1437393670, 1440942693);
+Inserting 29/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (10828,88650, "ESP8266 Anemometer", "Wireless WIFI Anemometer using ESP12e", 3696, 7, 25, 0, 0, 0, 1460216306, 1461365334);
+Inserting 30/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (8756,76288, "ESP8266 Game", "A gameboy like board for the ESP8266 with OLED, Sound, Analog Joystick, and 4 action buttons!", 5657, 26, 32, 4, 0, 0, 1449910167, 1450599573);
+Inserting 31/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (3568,39748, "ESP8266 Test Program", "A Project to Test Low-Cost ESP8266 Wifi Module with Easy PC Program for Beginners", 39661, 85, 763, 4, 1, 0, 1417964178, 1475399605);
+Inserting 32/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (9309,115974, "ESP8266 Dongle", "This project aims to build a cheap esp8266 dev-board that plugs in a PC for programming and can be powered with a phone charger or powerbank", 1978, 10, 68, 0, 1, 0, 1453644512, 1453660057);
+Inserting 33/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (6206,53007, "YAW - ESP8266", "Yet Another Weather station  that is updated by internet.
+This one runs on a standalone ESP8266 with an OLED display", 2052, 5, 26, 0, 0, 0, 1433895946, 1433896363);
+Inserting 34/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (12713,98690, "Blink with ESP8266 and Visuino", "Program ESP2866 with Visuino to flash a LED", 2629, 6, 494, 0, 1, 7, 1468638749, 1521067911);
+Inserting 35/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (26931,234251, "Yet Another ESP8266 Nixie Clock", "A Nixie clock based on V.G.C. idea and code but using a Nodemcu Lua ESP8266 and my Nixie driver board.", 984, 5, 92, 0, 0, 0, 1503402703, 1517922490);
+Inserting 36/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (13322,154830, "ESP8266 Useless Throwie", "A useless box with a web interface served from a free hotspot", 5189, 15, 14, 0, 1, 1, 1472141287, 1472434315);
+Inserting 37/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (5728,8, "ESP8266-01 Breakout", "Cool little ESP8266 Breakout Board / Flasher for NodeMCU", 9219, 35, 74, 4, 1, 1, 1431282896, 1459321413);
+Inserting 38/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (21455,49105, "Waterpump control with ESP8266", "Control waterpump with ESP8266 with some extra safety checks.", 1208, 8, 13, 7, 0, 0, 1493142263, 1506277036);
+Inserting 39/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (76784,178698, "ESP8266 Web Interface", "Web interface RGB colorful button for nodemcu or esp8266 based project  ", 768, 2, 5, 0, 0, 0, 1520329429, 1520780230);
+Inserting 40/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (6132,53007, "ESP8266+OLED", "ESP8266-01 server, programmed in Arduino-C,  + I2C oled  to display text-messages  of upto 128 characters that are typed in a browser.
+", 37021, 38, 659, 1, 1, 3, 1433451974, 1434128205);
+Inserting 41/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (10057,39565, "ESP8266 websocket", "ESP8266 websocket html5", 10491, 12, 25, 1, 1, 0, 1457429693, 1457625540);
+Inserting 42/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (7164,50811, "ESP8266 DMA I2S WS2812 Driver", "(ab)use the I2S + DMA on the ESP8266 to drive some WS2812(b)'s.", 5245, 29, 1439, 0, 0, 0, 1439352468, 1439358807);
+Inserting 43/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (14829,168242, "Smart Home Power Relay (ESP8266)", "PowerSupply, Relay and Wifi (ESP8266-12) Modules", 2520, 6, 19, 0, 1, 0, 1474060632, 1474104891);
+Inserting 44/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (4318,7528, "VU-meter Esp8266 - WS2812B", "VU-meter (Winamp plugin ) sending udp to a Esp8266 controlling a Ws2812B", 17278, 28, 447, 5, 1, 6, 1423779776, 1465073298);
+Inserting 45/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (27304,248881, "NodeMCU ESP8266 Lego Controller", "Control your Lego with cheap stepper and ESP8266 controller with tablet or handy", 490, 1, 0, 0, 0, 0, 1505475822, 0);
+Inserting 46/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (3965,11459, "ESP8266 Dev-Board ", "Create a development board for ESP8266 with One-Layer  PBC and ""normal"" components. 
+Third version is ready. 
+For ESP-01, -03, -07 or -12
+", 5245, 19, 1031, 7, 1, 0, 1421810088, 1434211308);
+Inserting 47/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (4422,52143, "ESP8266 - native switcher", "ESP8266 + 2 relay module + usb charger. 
+As simple as possible two channels switcher controlled from web", 33675, 20, 86, 1, 1, 8, 1424725396, 1430769510);
+Inserting 48/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (160007,327698, "ESP8266 Arduino Tutorials", "Use the power and simplicity of the Arduino platform to bring your IoT projects up to speed quickly, with the ESP8266!", 1886, 6, 45, 0, 1, 2, 1532609579, 1533929285);
+Inserting 49/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (2879,667, "ESP8266 WiFi Module Library", "A project researching the capabilities and use of the newly available ESP8266 low-cost WiFi module.", 156925, 221, 944, 4, 0, 0, 1409162041, 1411759490);
+Inserting 50/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (19162,132329, "ESP8266 Temperature controller", "ESP8266 based control of 0-10VDC analog output and 2 binary outs", 449, 1, 5, 0, 0, 0, 1482968811, 1482968830);
+Inserting 51/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (20750,126984, "Homefixer ESP8266 devboard", "A lightweight and simple devboard for ESP8266-12 with 2.54mm breadboard pinout and works with 1V-5.5V batteries", 2099, 13, 20, 8, 1, 1, 1490788479, 1519071379);
+Inserting 52/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (4330,3052, "ESP8266 wifi light dimmer", "Inexpensive ESP8266 wifi light dimmer.", 30980, 20, 231, 2, 1, 0, 1423888436, 1429075858);
+Inserting 53/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (6750,9726, "ESP8266 Greenhouse monitor", "A device that would measure air humidity, temperature, sun luminosity, air quality and soil moisture and transmit it over WiFI.", 1633, 10, 36, 0, 0, 0, 1436783338, 0);
+Inserting 54/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (9126,6563, "ESP8266 on ""Staroids""", "In the on-going quest to see how far the ESP8266 Series 12e modules can be stretched, I have devised a game code named ""Staroids"". ", 1329, 11, 453, 0, 1, 1, 1452378084, 1515418849);
+Inserting 55/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (6308,23167, "Foofy Weensy - Teensy + ESP8266", "A Teensy development board which includes a ESP8266 and Lipo charger.", 2784, 13, 385, 4, 1, 0, 1434322338, 1436066425);
+Inserting 56/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (19684,49105, "Howto: Program ESP8266 with ease", "Simple step-by-step instruction of programming ESP8266 ESP-12E using Linux and Platformio ", 466, 0, 5, 0, 1, 0, 1485932734, 1485935233);
+Inserting 57/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (9398,1545, "ESP8266-01 Development board", "A quick and easy dev board for the esp8266-01 board", 598, 1, 0, 1, 1, 14, 1454203932, 1454277199);
+Inserting 58/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (7695,6563, "ESP8266 WiFi controlled Hamster", "Using ESP8266 WiFi modules to remotely control 
+Stepper motors and other cool stuff", 2267, 9, 8, 0, 1, 1, 1442505962, 1457518089);
+Inserting 59/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (11085,110873, "ESP8266 based soil monitoring", "measurement of plant vitals under $15", 1229, 8, 29, 0, 1, 0, 1460870286, 1460870761);
+Inserting 60/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (6886,441, "ESP8266 Sprinkler Controller", "Wireless sprinkler controller, to replace a consumer unit that broke", 1220, 7, 10, 6, 0, 0, 1437604067, 1440533449);
+Inserting 61/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (24507,216701, "ESP8266 micropython - Tutorial 3: Micropython Tim", "Timer
+
+ESP8266 micropython tutorial 3: To use timer, we need to import Timer library first from machine importTimer", 457, 0, 2, 0, 1, 0, 1495461045, 1495609541);
+Inserting 62/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (3403,6634, "ESP8266 Phant.io and Plot.ly thing", "Updates sensor data live to the cloud - with no external microcontroller.", 5181, 5, 324, 9, 0, 0, 1416368969, 1435694538);
+Inserting 63/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (4553,53209, "ESP8266 browser based Lua IDE", "Browser based Lua IDE for ESP8266", 6163, 10, 119, 0, 0, 0, 1425775554, 0);
+Inserting 64/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (20974,209603, "ESP8266 WIFI Remote Relay Switch", "http://geek.adachsoft.com/home/article/id/11/n/ESP8266-WIFI-Remote-Relay-Switch/refid/hd
+In this tutorial I will show you how to convert ...", 786, 5, 314, 0, 0, 0, 1491470864, 0);
+Inserting 65/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (5942,375, "ESP8266 Web Server (Without Arduino)", "How to build a web server with a $4 WiFi Module called ESP8266 without using an Arduino", 16259, 33, 319, 0, 0, 5, 1432390052, 1432390696);
+Inserting 66/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (6842,6318, "ESP8266 notifications via Pushetta", "Fast example on notifications", 1866, 5, 9, 0, 0, 0, 1437390963, 1437391097);
+Inserting 67/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (20290,187168, "Blynk Bridge tutorial with ESP8266", "Communicate between Internet of Things projects with Blynk Bridge", 679, 0, 133, 0, 0, 0, 1489245733, 0);
+Inserting 68/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (9772,6860, "ESP8266-01 Carrier", "Arduino-ish clone (ATMega32U4) with interface to ESP8266-01", 332, 0, 3, 2, 0, 0, 1455976128, 1456004560);
+Inserting 69/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (21758,216701, "ESP8266 Tutorial: Build An Automatic Plant Waterer", "ESP8266 Tutorial: Build An Automatic Plant Watering System, it's easy, step by step, learn more!", 510, 6, 3, 0, 1, 0, 1493976961, 1493977474);
+Inserting 70/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (8687,1545, "ESP8266 web based  temperature sensor", "Use an esp8266 to provide  temperature data to a web page.", 4783, 8, 18, 1, 1, 11, 1449436689, 1454874321);
+Inserting 71/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (4470,49497, "TinyESP ESP8266 Breadboard Adapter", "TinyESP is a tiny size breadboard adapter for ESP-12/ESP-07 ESP8266 WiFi module. It contains a 3.3V voltage LDO, a Reset button and a flash ", 3600, 14, 438, 2, 0, 0, 1425086365, 1426124104);
+Inserting 72/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (10583,47142, "ESP8266-Robotamy-Board", "An ESP8266 with a ALC5628 DAC+AMP capable of driving Motors and Servos intended for up-cycling old toys into web controlled talking robots.", 421, 6, 9, 4, 0, 0, 1459162582, 1463796007);
+Inserting 73/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (12866,16431, "ESP8266 Power Latch", "A small circuit to latch the power on when using an ESP8266 in a ""Dash Button"" style application", 3864, 6, 11, 2, 1, 0, 1469597528, 1479690811);
+Inserting 74/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (160006,327698, "ESP8266 SDK Tutorials", "Getting up to speed with the ESP8266 SDK has never been easier!", 1961, 8, 20, 0, 1, 7, 1532609456, 1535321660);
+Inserting 75/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (5939,2632, "ESP8266 AVR ISP Programmer", "I new I was going to have to make this a thing cause no one did it yet. Its an AVR ISP programmer implementation for the ESP8266 module", 3162, 8, 49, 0, 0, 0, 1432354473, 1432354569);
+Inserting 76/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (8457,169, "ESP8266 Remote Control", "ESP8266 enclosure. Listen for button press -> send http request.", 2024, 7, 761, 3, 1, 0, 1447646096, 1449275307);
+Inserting 77/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (20244,98807, "ESP8266 Wi-Fi - SCREW SHIELD", "Main idea for this project is to create an easy adaptable screw shield for ESP8266 - 05 Wi-Fi module.", 1043, 5, 7, 0, 1, 0, 1489094611, 1505335846);
+Inserting 78/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (9517,117737, "ESP8266 and Relay Control Using Smartphone", "ESP8266 & SUPLA", 5704, 8, 41, 0, 1, 9, 1454674200, 1454676582);
+Inserting 79/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (12933,67248, "ESP8266 Geiger counter", "Simple Geiger counter using ESP8266 PWM for HV generation and network connectivity", 7180, 19, 34, 11, 1, 0, 1469962818, 1476733549);
+Inserting 80/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (159471,327698, "ESP8266 Lua Tutorials", "NodeMCU brought a whole new paradigm to IoT -- using the Lua scripting language to built internet-connected apps with the ESP8266!", 978, 4, 11, 0, 1, 2, 1530638119, 1534173675);
+Inserting 81/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (28010,174207, "ESP8266 Oled Mini Quiz", "A small quiz game that reads questions from web and shows them on a small oled dispay, using a 3.6V battery, an ESP8266-01 and two buttons", 597, 9, 6, 0, 1, 5, 1509705786, 1509722281);
+Inserting 82/4057
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (159179,216701, "ESP8266 Arduino Tutorial: Getting temperature and ", "we will check how to get temperature and humidity measurements from a DHT22 sensor, with the Arduino IDE running on the ESP8266.", 19, 0, 1, 0, 1, 0, 1529564421, 1529564677);
+Inserting 83/4057
+4063
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (9600,94265, "Sunset lamp", "A lamp the changes with the sun", 1375, 6, 11, 8, 1, 1, 1455009746, 1456369883);
+Inserting 1/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (12195,147515, "Weather & plant monitoring station", "Arduino controlled wifi weather station, with local database, dashboard and online controllable watering system.", 2036, 8, 16, 3, 1, 1, 1465740530, 1484726038);
+Inserting 2/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (7172,86273, "rgbcubes - iot finder", "glowy cubes (ws2812b) made from frosted acrylic with web service to easily find it on your network.", 1914, 38, 1379, 7, 1, 0, 1439405185, 1473634349);
+Inserting 3/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (28942,161162, "Voice activated dog feeder", "A voice activated dog feeder - using Google Home, IFTTT, Node-red, MQTT and an ESP8266. ", 343, 2, 2, 0, 1, 0, 1514814807, 1519294172);
+Inserting 4/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (12708,63796, "Uncontrolled Mechanical Ventilation", "Automatic CMV", 1963, 10, 12, 10, 1, 7, 1468603322, 1482081464);
+Inserting 5/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (16705,18020, "Wireless mqtt temp sensor", "I've started long time ago to create surely but slowly and no wire attached temperatures sensor and I wanted a place to post my progress. ", 1006, 1, 3, 1, 0, 0, 1477544301, 1477699594);
+Inserting 6/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (12066,13270, "uRADMonitor A3", "A versatile IOT device designed to track 8 air parameters and map pollution, with both wired and wireless Internet connectivity", 2754, 47, 55, 8, 1, 0, 1464983280, 1511479395);
+Inserting 7/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (19570,177833, "HTC vive lighthouse custom tracking ", "3d position tracking using our own design of the sensors, an altera fpga for decoding the signals and custom code for triangulation and poseestimation", 7062, 22, 31, 8, 1, 0, 1485264871, 1526339921);
+Inserting 8/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (21894,219612, "ESP8266", "I need help using a esp8266 as a wireless access point, so when people connect all their data flows through the esp and gets send directly", 212, 1, 6, 0, 0, 0, 1494353508, 0);
+Inserting 9/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (19550,181718, "ESP8266 Nixie", "ESP8266-Based Nixie Clock W/Sensors", 1181, 5, 4, 0, 1, 0, 1485118211, 1485121470);
+Inserting 10/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (17952,159036, "esp8266/TLS", "enable TLS for esp8266-based arduino boards, both server and client", 339, 0, 6, 0, 0, 0, 1478291698, 1478291816);
+Inserting 11/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (3253,32012, "ESP8266 Native", "Exploring running native applications on the ESP8266 modules", 43676, 33, 400, 9, 1, 0, 1414473898, 1428147641);
+Inserting 12/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (22512,216701, "ESP8266 micropython- Tutorial 2: Micropython GPIO", "ESP8266 micropython- Tutorial 2: Micropython GPIO", 427, 1, 3, 0, 1, 0, 1495272377, 1495273367);
+Inserting 13/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (19376,187168, "ESP8266 Arduino Tutorial and Review", "Cheap WiFi Module for Internet of Things (IoT) projects", 842, 5, 804, 0, 0, 0, 1484125568, 1524296772);
+Inserting 14/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (22497,216701, "ESP8266 micropython- Tutorial 1: Introduction", "ESP8266 micropython- Tutorial 1: Introduction, some basic description about esp8266 micropython.", 271, 1, 7, 0, 1, 0, 1495271657, 1495272203);
+Inserting 15/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (24882,216701, "ESP8266 Micropython -Tutorial 5: Micropython UDP", "ESP8266 Micropython -Tutorial 5: Micropython UDP", 518, 2, 3, 0, 1, 0, 1495610743, 1499752995);
+Inserting 16/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (26262,181718, "ESP8266 Altair 8800b Emulator,  Telnet Support", "Building on the work of dankar, I wondered if his code could be ported to the ESP8266. It could. Then I added features.", 491, 4, 4, 0, 1, 0, 1502043132, 1504576207);
+Inserting 17/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (25359,225995, "ESP8266 Twitter Client", "ESP8266 Twitter client with OLED display", 3573, 22, 21, 5, 1, 0, 1496949088, 1503256638);
+Inserting 18/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (6453,77183, "ESP8266 Parasite", "A development board built to be able to go inside another project to enable wifi control", 3288, 6, 821, 5, 1, 0, 1435306875, 1437127007);
+Inserting 19/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (3954,11206, "LuaLoader for ESP8266", "A Windows serial interface with handy buttons to interface with the Lua interpreter on the ESP8266. 
+For learning and development.", 5507, 8, 46, 0, 1, 0, 1421792018, 1423506909);
+Inserting 20/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (3650,37878, "ESP8266 EasyIoT Arduino library", "With ESP8266 EasyIoT library making WiFi sensors is easy. Create WiFi Arduino sensor with couple lines of code.", 27953, 40, 230, 7, 0, 0, 1418985405, 1434019983);
+Inserting 21/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (13065,46565, "Immerlicht ESP8266", "A esp8266 based LEDStrip with a webGUI and an AndroidApp", 539, 3, 6, 1, 1, 0, 1470661254, 1505997000);
+Inserting 22/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (160597,339748, "ESP8266 websocket", "WebSocket is a computer communications protocol, Here we are using with ESP8266 Wi-Fi Microcontroller ", 66, 0, 0, 0, 1, 0, 1534677078, 1534677283);
+Inserting 23/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (24881,216701, "ESP8266 Micropython - Tutorial 4: How To Interrupt", "ESP8266 Micropython - Tutorial 4: How To Interrupt Micropython, learn now!", 370, 1, 2, 0, 1, 0, 1495610387, 1495610553);
+Inserting 24/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (16298,121802, "AGI-ESP8266", "WiFi accessible IoT plant monitoring system", 4785, 16, 355, 22, 1, 1, 1476324253, 1522637897);
+Inserting 25/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (9796,121629, "ESP8266 gate sensor", "ESP8266 gate sensor to notify me when delinquent teenagers open my backyard gate.", 1459, 2, 8, 4, 1, 0, 1456074403, 1456075239);
+Inserting 26/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (10034,47051, "ESP8266 + OLED Display", "An exercise of connecting the ESP-12 DevKit board running nodemcu to a 4 pin I2C OLED Display", 40660, 29, 72, 2, 1, 4, 1457295228, 1457495312);
+Inserting 27/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (21161,25123, "ESP8266 Wireless AVR (Arduino) Programmer", "Using an ESP8266 to program AVR micros.", 1064, 3, 864, 0, 1, 0, 1492091609, 1524297441);
+Inserting 28/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (6843,953, "ESP8266-01 breakout board", "breakout board for ESP8266-01. Forked from https://hackaday.io/project/5728-esp8266-01-breakout.", 3425, 12, 31, 2, 1, 1, 1437393670, 1440942693);
+Inserting 29/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (10828,88650, "ESP8266 Anemometer", "Wireless WIFI Anemometer using ESP12e", 3698, 7, 25, 0, 0, 0, 1460216306, 1461365334);
+Inserting 30/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (8756,76288, "ESP8266 Game", "A gameboy like board for the ESP8266 with OLED, Sound, Analog Joystick, and 4 action buttons!", 5666, 26, 32, 4, 0, 0, 1449910167, 1450599573);
+Inserting 31/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (3568,39748, "ESP8266 Test Program", "A Project to Test Low-Cost ESP8266 Wifi Module with Easy PC Program for Beginners", 39693, 85, 763, 4, 1, 0, 1417964178, 1475399605);
+Inserting 32/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (9309,115974, "ESP8266 Dongle", "This project aims to build a cheap esp8266 dev-board that plugs in a PC for programming and can be powered with a phone charger or powerbank", 1981, 10, 68, 0, 1, 0, 1453644512, 1453660057);
+Inserting 33/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (6206,53007, "YAW - ESP8266", "Yet Another Weather station  that is updated by internet.
+This one runs on a standalone ESP8266 with an OLED display", 2053, 5, 26, 0, 0, 0, 1433895946, 1433896363);
+Inserting 34/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (12713,98690, "Blink with ESP8266 and Visuino", "Program ESP2866 with Visuino to flash a LED", 2633, 6, 494, 0, 1, 7, 1468638749, 1521067911);
+Inserting 35/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (26931,234251, "Yet Another ESP8266 Nixie Clock", "A Nixie clock based on V.G.C. idea and code but using a Nodemcu Lua ESP8266 and my Nixie driver board.", 993, 5, 92, 0, 0, 0, 1503402703, 1517922490);
+Inserting 36/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (13322,154830, "ESP8266 Useless Throwie", "A useless box with a web interface served from a free hotspot", 5189, 15, 14, 0, 1, 1, 1472141287, 1472434315);
+Inserting 37/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (5728,8, "ESP8266-01 Breakout", "Cool little ESP8266 Breakout Board / Flasher for NodeMCU", 9221, 35, 74, 4, 1, 1, 1431282896, 1459321413);
+Inserting 38/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (21455,49105, "Waterpump control with ESP8266", "Control waterpump with ESP8266 with some extra safety checks.", 1213, 8, 13, 7, 0, 0, 1493142263, 1506277036);
+Inserting 39/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (76784,178698, "ESP8266 Web Interface", "Web interface RGB colorful button for nodemcu or esp8266 based project  ", 773, 2, 5, 0, 0, 0, 1520329429, 1520780230);
+Inserting 40/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (6132,53007, "ESP8266+OLED", "ESP8266-01 server, programmed in Arduino-C,  + I2C oled  to display text-messages  of upto 128 characters that are typed in a browser.
+", 37059, 38, 659, 1, 1, 3, 1433451974, 1434128205);
+Inserting 41/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (10057,39565, "ESP8266 websocket", "ESP8266 websocket html5", 10498, 12, 25, 1, 1, 0, 1457429693, 1457625540);
+Inserting 42/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (7164,50811, "ESP8266 DMA I2S WS2812 Driver", "(ab)use the I2S + DMA on the ESP8266 to drive some WS2812(b)'s.", 5246, 29, 1441, 0, 0, 0, 1439352468, 1439358807);
+Inserting 43/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (14829,168242, "Smart Home Power Relay (ESP8266)", "PowerSupply, Relay and Wifi (ESP8266-12) Modules", 2521, 6, 19, 0, 1, 0, 1474060632, 1474104891);
+Inserting 44/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (4318,7528, "VU-meter Esp8266 - WS2812B", "VU-meter (Winamp plugin ) sending udp to a Esp8266 controlling a Ws2812B", 17288, 28, 447, 5, 1, 6, 1423779776, 1465073298);
+Inserting 45/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (27304,248881, "NodeMCU ESP8266 Lego Controller", "Control your Lego with cheap stepper and ESP8266 controller with tablet or handy", 491, 1, 0, 0, 0, 0, 1505475822, 0);
+Inserting 46/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (3965,11459, "ESP8266 Dev-Board ", "Create a development board for ESP8266 with One-Layer  PBC and ""normal"" components. 
+Third version is ready. 
+For ESP-01, -03, -07 or -12
+", 5248, 19, 1033, 7, 1, 0, 1421810088, 1434211308);
+Inserting 47/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (4422,52143, "ESP8266 - native switcher", "ESP8266 + 2 relay module + usb charger. 
+As simple as possible two channels switcher controlled from web", 33721, 20, 86, 1, 1, 8, 1424725396, 1430769510);
+Inserting 48/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (160007,327698, "ESP8266 Arduino Tutorials", "Use the power and simplicity of the Arduino platform to bring your IoT projects up to speed quickly, with the ESP8266!", 2296, 6, 52, 0, 1, 2, 1532609579, 1533929285);
+Inserting 49/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (2879,667, "ESP8266 WiFi Module Library", "A project researching the capabilities and use of the newly available ESP8266 low-cost WiFi module.", 156937, 221, 944, 4, 0, 0, 1409162041, 1411759490);
+Inserting 50/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (19162,132329, "ESP8266 Temperature controller", "ESP8266 based control of 0-10VDC analog output and 2 binary outs", 450, 1, 5, 0, 0, 0, 1482968811, 1482968830);
+Inserting 51/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (20750,126984, "Homefixer ESP8266 devboard", "A lightweight and simple devboard for ESP8266-12 with 2.54mm breadboard pinout and works with 1V-5.5V batteries", 2108, 13, 20, 8, 1, 1, 1490788479, 1519071379);
+Inserting 52/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (4330,3052, "ESP8266 wifi light dimmer", "Inexpensive ESP8266 wifi light dimmer.", 31054, 20, 231, 2, 1, 0, 1423888436, 1429075858);
+Inserting 53/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (6750,9726, "ESP8266 Greenhouse monitor", "A device that would measure air humidity, temperature, sun luminosity, air quality and soil moisture and transmit it over WiFI.", 1637, 10, 36, 0, 0, 0, 1436783338, 0);
+Inserting 54/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (9126,6563, "ESP8266 on ""Staroids""", "In the on-going quest to see how far the ESP8266 Series 12e modules can be stretched, I have devised a game code named ""Staroids"". ", 1331, 11, 455, 0, 1, 1, 1452378084, 1515418849);
+Inserting 55/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (6308,23167, "Foofy Weensy - Teensy + ESP8266", "A Teensy development board which includes a ESP8266 and Lipo charger.", 2788, 13, 386, 4, 1, 0, 1434322338, 1436066425);
+Inserting 56/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (19684,49105, "Howto: Program ESP8266 with ease", "Simple step-by-step instruction of programming ESP8266 ESP-12E using Linux and Platformio ", 468, 0, 5, 0, 1, 0, 1485932734, 1485935233);
+Inserting 57/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (9398,1545, "ESP8266-01 Development board", "A quick and easy dev board for the esp8266-01 board", 600, 1, 0, 1, 1, 14, 1454203932, 1454277199);
+Inserting 58/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (7695,6563, "ESP8266 WiFi controlled Hamster", "Using ESP8266 WiFi modules to remotely control 
+Stepper motors and other cool stuff", 2268, 9, 8, 0, 1, 1, 1442505962, 1457518089);
+Inserting 59/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (11085,110873, "ESP8266 based soil monitoring", "measurement of plant vitals under $15", 1229, 8, 29, 0, 1, 0, 1460870286, 1460870761);
+Inserting 60/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (6886,441, "ESP8266 Sprinkler Controller", "Wireless sprinkler controller, to replace a consumer unit that broke", 1222, 7, 10, 6, 0, 0, 1437604067, 1440533449);
+Inserting 61/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (24507,216701, "ESP8266 micropython - Tutorial 3: Micropython Tim", "Timer
+
+ESP8266 micropython tutorial 3: To use timer, we need to import Timer library first from machine importTimer", 458, 0, 2, 0, 1, 0, 1495461045, 1495609541);
+Inserting 62/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (3403,6634, "ESP8266 Phant.io and Plot.ly thing", "Updates sensor data live to the cloud - with no external microcontroller.", 5183, 5, 324, 9, 0, 0, 1416368969, 1435694538);
+Inserting 63/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (4553,53209, "ESP8266 browser based Lua IDE", "Browser based Lua IDE for ESP8266", 6167, 10, 119, 0, 0, 0, 1425775554, 0);
+Inserting 64/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (20974,209603, "ESP8266 WIFI Remote Relay Switch", "http://geek.adachsoft.com/home/article/id/11/n/ESP8266-WIFI-Remote-Relay-Switch/refid/hd
+In this tutorial I will show you how to convert ...", 787, 5, 315, 0, 0, 0, 1491470864, 0);
+Inserting 65/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (5942,375, "ESP8266 Web Server (Without Arduino)", "How to build a web server with a $4 WiFi Module called ESP8266 without using an Arduino", 16266, 33, 319, 0, 0, 5, 1432390052, 1432390696);
+Inserting 66/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (6842,6318, "ESP8266 notifications via Pushetta", "Fast example on notifications", 1867, 5, 9, 0, 0, 0, 1437390963, 1437391097);
+Inserting 67/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (20290,187168, "Blynk Bridge tutorial with ESP8266", "Communicate between Internet of Things projects with Blynk Bridge", 679, 0, 133, 0, 0, 0, 1489245733, 0);
+Inserting 68/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (9772,6860, "ESP8266-01 Carrier", "Arduino-ish clone (ATMega32U4) with interface to ESP8266-01", 332, 0, 3, 2, 0, 0, 1455976128, 1456004560);
+Inserting 69/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (21758,216701, "ESP8266 Tutorial: Build An Automatic Plant Waterer", "ESP8266 Tutorial: Build An Automatic Plant Watering System, it's easy, step by step, learn more!", 511, 6, 3, 0, 1, 0, 1493976961, 1493977474);
+Inserting 70/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (8687,1545, "ESP8266 web based  temperature sensor", "Use an esp8266 to provide  temperature data to a web page.", 4784, 8, 18, 1, 1, 11, 1449436689, 1454874321);
+Inserting 71/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (4470,49497, "TinyESP ESP8266 Breadboard Adapter", "TinyESP is a tiny size breadboard adapter for ESP-12/ESP-07 ESP8266 WiFi module. It contains a 3.3V voltage LDO, a Reset button and a flash ", 3603, 14, 438, 2, 0, 0, 1425086365, 1426124104);
+Inserting 72/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (10583,47142, "ESP8266-Robotamy-Board", "An ESP8266 with a ALC5628 DAC+AMP capable of driving Motors and Servos intended for up-cycling old toys into web controlled talking robots.", 421, 6, 9, 4, 0, 0, 1459162582, 1463796007);
+Inserting 73/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (12866,16431, "ESP8266 Power Latch", "A small circuit to latch the power on when using an ESP8266 in a ""Dash Button"" style application", 3870, 6, 11, 2, 1, 0, 1469597528, 1479690811);
+Inserting 74/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (160006,327698, "ESP8266 SDK Tutorials", "Getting up to speed with the ESP8266 SDK has never been easier!", 2299, 8, 21, 0, 1, 7, 1532609456, 1535321660);
+Inserting 75/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (5939,2632, "ESP8266 AVR ISP Programmer", "I new I was going to have to make this a thing cause no one did it yet. Its an AVR ISP programmer implementation for the ESP8266 module", 3162, 8, 49, 0, 0, 0, 1432354473, 1432354569);
+Inserting 76/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (8457,169, "ESP8266 Remote Control", "ESP8266 enclosure. Listen for button press -> send http request.", 2025, 7, 762, 3, 1, 0, 1447646096, 1449275307);
+Inserting 77/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (20244,98807, "ESP8266 Wi-Fi - SCREW SHIELD", "Main idea for this project is to create an easy adaptable screw shield for ESP8266 - 05 Wi-Fi module.", 1047, 5, 7, 0, 1, 0, 1489094611, 1505335846);
+Inserting 78/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (9517,117737, "ESP8266 and Relay Control Using Smartphone", "ESP8266 & SUPLA", 5714, 8, 41, 0, 1, 9, 1454674200, 1454676582);
+Inserting 79/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (12933,67248, "ESP8266 Geiger counter", "Simple Geiger counter using ESP8266 PWM for HV generation and network connectivity", 7191, 19, 34, 11, 1, 0, 1469962818, 1476733549);
+Inserting 80/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (159471,327698, "ESP8266 Lua Tutorials", "NodeMCU brought a whole new paradigm to IoT -- using the Lua scripting language to built internet-connected apps with the ESP8266!", 1165, 4, 13, 0, 1, 2, 1530638119, 1534173675);
+Inserting 81/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (28010,174207, "ESP8266 Oled Mini Quiz", "A small quiz game that reads questions from web and shows them on a small oled dispay, using a 3.6V battery, an ESP8266-01 and two buttons", 600, 9, 6, 0, 1, 5, 1509705786, 1509722281);
+Inserting 82/4064
+Insert into tblProjects(id, owner_id, name, summary, views, skulls, followers, logs, details, instruction, created, updated)VALUES (159179,216701, "ESP8266 Arduino Tutorial: Getting temperature and ", "we will check how to get temperature and humidity measurements from a DHT22 sensor, with the Arduino IDE running on the ESP8266.", 19, 0, 1, 0, 1, 0, 1529564421, 1529564677);
+Inserting 83/4064
