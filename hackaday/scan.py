@@ -145,7 +145,8 @@ print(iPgCnt);
 def getJsonObject(jobj, key, index, label):
     retval = ""
     try:
-        retval = jobj[key][index][label]
+        if(label in jobj[key][index]):
+            retval = jobj[key][index][label]
     except ValueError:
         strErrMsg = "Failed to retrieve key " + key + ", index " + str(index) + ", label = " + label
         retval = strErrMsg
@@ -161,7 +162,7 @@ for x in range(1, iPgCnt+1):
     try:
         jsonObject = json.loads(mybody.decode('utf-8')) #iso-8859-1'))
         total = jsonObject["total"];
-        myid = jsonObject["results"][0]["id"];
+        myid = getJsonObject(jsonObject, "results", 0, "id");
         owner_id = jsonObject["results"][0]["owner_id"];
         name = jsonObject["results"][0]["name"];
         name = SQLSafe(name)
