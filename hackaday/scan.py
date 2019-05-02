@@ -4,6 +4,7 @@ import json
 from time import sleep
 import sys
 import sqlite3
+import time
 
 ####################
 # Hackaday scraper #
@@ -157,6 +158,11 @@ def getJsonObject(jobj, key, index, label):
 for x in range(1, iPgCnt+1):
     url = urlWithAPI.replace("PGNUM", str(x));
     mybody = getURLbody(url);
+    reportfile = time.strftime("%Y%m%d%H%M.txt")
+    reportfile = str(x) + reportfile
+    myfile = open(reportfile,"w+")
+    myfile.write(mybody)
+    myfile.close()
     # print(mybody);
     # myproj = getKey('results', mybody);
     try:
@@ -188,5 +194,5 @@ for x in range(1, iPgCnt+1):
     # sleep for a one second
     strPrint = "Inserting " + str(x) + "/" + str(iPgCnt+1) 
     print(strPrint)
-    sleep(1)
+    sleep(10)
 
