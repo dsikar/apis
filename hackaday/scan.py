@@ -128,7 +128,13 @@ def InsertRow(myid, owner_id, name, summary, views, skulls, followers,
     strSQL += summary + '", ' + str(views) + ', ' + str(skulls) + ', '
     strSQL += str(followers) + ', ' + str(logs) + ', ' + str(details) + ', '
     strSQL += str(instruction) + ', ' + str(created) + ', ' + str(updated) + ');'
-    print(strSQL)
+    
+    try:
+        print(strSQL)
+    except UnicodeEncodeError:
+        print("UnicodeEncodeError")
+        pass
+
     try:
         ExecSQL(strSQL)
     except ValueError:
@@ -148,7 +154,7 @@ def getJsonObject(jobj, key, index, label):
     try:
         if(label in jobj[key][index]):
             retval = jobj[key][index][label]
-    except KeyError:
+    except TypeError:
         strErrMsg = "Failed to retrieve key " + key + ", index " + str(index) + ", label = " + label
         retval = strErrMsg
         print(strErrMsg)
@@ -185,7 +191,7 @@ for x in range(1, iPgCnt+1):
         updated = jsonObject["results"][0]["updated"];
         InsertRow(myid, owner_id, name, summary, views, skulls, followers,
             logs, details, instruction, created, updated)
-    except KeyError:
+    except TypeError:
         print("Failed to run InsertRow()")
         pass
 
@@ -194,5 +200,5 @@ for x in range(1, iPgCnt+1):
     # sleep for a one second
     strPrint = "Inserting " + str(x) + "/" + str(iPgCnt+1) 
     print(strPrint)
-    sleep(10)
+    sleep(1)
 
