@@ -148,7 +148,7 @@ def getJsonObject(jobj, key, index, label):
     try:
         if(label in jobj[key][index]):
             retval = jobj[key][index][label]
-    except ValueError:
+    except KeyError:
         strErrMsg = "Failed to retrieve key " + key + ", index " + str(index) + ", label = " + label
         retval = strErrMsg
         print(strErrMsg)
@@ -160,7 +160,7 @@ for x in range(1, iPgCnt+1):
     mybody = getURLbody(url);
     reportfile = time.strftime("%Y%m%d%H%M.txt")
     reportfile = str(x) + reportfile
-    myfile = open(reportfile,"w+")
+    myfile = open(reportfile,'wb')
     myfile.write(mybody)
     myfile.close()
     # print(mybody);
@@ -185,7 +185,7 @@ for x in range(1, iPgCnt+1):
         updated = jsonObject["results"][0]["updated"];
         InsertRow(myid, owner_id, name, summary, views, skulls, followers,
             logs, details, instruction, created, updated)
-    except ValueError:
+    except KeyError:
         print("Failed to run InsertRow()")
         pass
 
